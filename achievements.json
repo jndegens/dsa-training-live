@@ -1,0 +1,2007 @@
+{
+  "generated_at": "2026-02-10T07:53:33.916473",
+  "stats": {
+    "total": 221,
+    "with_avatar": 139,
+    "with_quote": 95,
+    "with_screenshot": 214,
+    "per_level": {
+      "Level 3: 100k+": 15,
+      "Level 2: 50-100k": 7,
+      "Level 1: 10-50k": 64,
+      "0-10k": 55,
+      "Eerste Sale": 80
+    }
+  },
+  "achievements": [
+    {
+      "name": "Boy H.",
+      "full_name": "Boy Haitel",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-08-08",
+      "avatar": "",
+      "screenshot": "screenshots/boy-haitel-level-3-100k-18fccc.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Teun L.",
+      "full_name": "Teun Loete",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-08-08",
+      "avatar": "",
+      "screenshot": "screenshots/teun-loete-level-3-100k-63ee3f.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Daphne v.",
+      "full_name": "Daphne van Estrik",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-08-13",
+      "avatar": "avatars/daphne-van-estrik.jpg",
+      "screenshot": "screenshots/daphne-van-estrik-level-3-100k-f5a7ed.jpg",
+      "quote": "Geen financieel achievement maar een compliment over onze website. De website is voor Google gecheckt door een externe partij en deze gaf het compliment dat er praktisch geen aanpassingen gedaan..."
+    },
+    {
+      "name": "Manuel B.",
+      "full_name": "Manuel B",
+      "achievement": "Level 3: 100k+",
+      "date": "2026-01-27",
+      "avatar": "avatars/manuel-b.jpg",
+      "screenshot": "screenshots/manuel-b-level-3-100k-7d6da8.jpg",
+      "quote": "Zeven maanden geleden zag ik @Joshua Kaats gezicht op YouTube voor wat voelde als de duizendste keer en besloot ik de knoop door te hakken en me aan te sluiten bij de DSA. Wat volgde ging..."
+    },
+    {
+      "name": "Ruben",
+      "full_name": "Ruben",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-11-28",
+      "avatar": "avatars/ruben.jpg",
+      "screenshot": "screenshots/ruben-level-3-100k-02f0f5.jpg",
+      "quote": "Het heeft even geduurd, maar de eerste sale is binnen! De afgelopen maanden heb ik vaak getwijfeld of alle uren die ik er in stopte wel zouden uitbetalen. Ondanks alle twijfels en tegenslagen toch..."
+    },
+    {
+      "name": "DUANTHY T.",
+      "full_name": "DUANTHY TJON  duanthy05@gmail.com ",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-08-26",
+      "avatar": "",
+      "screenshot": "screenshots/duanthy-tjon-duanthy05-gmail-com-level-3-100k-cee4a3.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Stijn W.",
+      "full_name": "Stijn Wilders",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-08-26",
+      "avatar": "",
+      "screenshot": "screenshots/stijn-wilders-level-3-100k-0789f7.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Maouheb B.",
+      "full_name": "Maouheb Bessi",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-08-26",
+      "avatar": "avatars/maouheb-bessi.jpg",
+      "screenshot": "screenshots/maouheb-bessi-level-3-100k-f36453.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Peter M.",
+      "full_name": "Peter Mecklenfeld",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-08-26",
+      "avatar": "avatars/peter-mecklenfeld.jpg",
+      "screenshot": "screenshots/peter-mecklenfeld-level-3-100k-efa325.jpg",
+      "quote": "Resultaten uit het verleden bieden geen garantie voor de toekomst. Maar ze laten w\u00e9l zien waar je vandaan komt. En welke obstakels, uitdagingen en mijlpalen je onderweg bent tegengekomen. Dit is..."
+    },
+    {
+      "name": "Lisa B.",
+      "full_name": "Lisa Booy",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-10-01",
+      "avatar": "avatars/lisa-booy.jpg",
+      "screenshot": "screenshots/lisa-booy-level-3-100k-0a39a9.jpg",
+      "quote": "Zonder tegenslagen geen overwinningen. Deze gaan we vieren\ud83c\udf7e @Coach Matthew"
+    },
+    {
+      "name": "Daniel v.",
+      "full_name": "Daniel van Elk",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-07-22",
+      "avatar": "avatars/daniel-van-elk.jpg",
+      "screenshot": "screenshots/daniel-van-elk-level-3-100k-cff23a.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Lisa D.",
+      "full_name": "Lisa & Dennis",
+      "achievement": "Level 3: 100k+",
+      "date": "2025-12-31",
+      "avatar": "avatars/lisa-dennis.jpg",
+      "screenshot": "screenshots/lisa-dennis-level-3-100k-b828df.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Ruben D.",
+      "full_name": "Ruben De greef",
+      "achievement": "Level 3: 100k+",
+      "date": "2026-01-06",
+      "avatar": "avatars/ruben-de-greef.jpg",
+      "screenshot": "screenshots/ruben-de-greef-level-3-100k-c9ee59.jpg",
+      "quote": "1 Augustus begonnen aan een 1 op 1 Traject met @Coach Tristan . En nu 4 maanden later 211K NZD \u2192 \u20ac104K. In een korte tijd echt zo veel mogen leren. En ik heb het idee dat ik nog zo veel te leren..."
+    },
+    {
+      "name": "Andrew F.",
+      "full_name": "Andrew Feckler (VERLENGING)",
+      "achievement": "Level 3: 100k+",
+      "date": "2026-01-22",
+      "avatar": "avatars/andrew-feckler-verlenging.jpg",
+      "screenshot": "screenshots/andrew-feckler-verlenging-level-3-100k-ff09cc.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Saranchai B.",
+      "full_name": "Saranchai Boonrom",
+      "achievement": "Level 3: 100k+",
+      "date": "2026-01-22",
+      "avatar": "avatars/saranchai-boonrom.jpg",
+      "screenshot": "screenshots/saranchai-boonrom-level-3-100k-b24e29.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Finn d.",
+      "full_name": "Finn de Gelder",
+      "achievement": "Level 2: 50-100k",
+      "date": "2025-11-27",
+      "avatar": "",
+      "screenshot": "screenshots/finn-de-gelder-level-2-50-100k-77b413.jpg",
+      "quote": "Ik ben nu ongeveer \u00e9\u00e9n jaartje bezig en heb tot nu toe \u20ac170k omzet gedraaid. Ik heb het 6 maanden traject gevolgd bij @Coach Tristan , wat goed is verlopen. Afgelopen zomer heb ik het wat laten..."
+    },
+    {
+      "name": "Donny C.",
+      "full_name": "Donny Campschreur",
+      "achievement": "Level 2: 50-100k",
+      "date": "2025-08-25",
+      "avatar": "",
+      "screenshot": "screenshots/donny-campschreur-level-2-50-100k-be9e3f.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Mark v.",
+      "full_name": "Mark van Vliet",
+      "achievement": "Level 2: 50-100k",
+      "date": "2025-11-18",
+      "avatar": "",
+      "screenshot": "screenshots/mark-van-vliet-level-2-50-100k-2e56ec.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Rein K.",
+      "full_name": "Rein Koning",
+      "achievement": "Level 2: 50-100k",
+      "date": "2025-08-26",
+      "avatar": "",
+      "screenshot": "screenshots/rein-koning-level-2-50-100k-b9f6ba.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Max d.",
+      "full_name": "Max de Jong",
+      "achievement": "Level 2: 50-100k",
+      "date": "2025-11-21",
+      "avatar": "",
+      "screenshot": "screenshots/max-de-jong-level-2-50-100k-591874.jpg",
+      "quote": "Als ik nu zo kijk, voelt het totaal niet alsof ik 250k heb omgezet. Maar het is toch gelukt met de hulp van @Coach Jermeau . Van te voren denk je dat alles vrij soepel gaat, maar holy shit, wat..."
+    },
+    {
+      "name": "jermaine r.",
+      "full_name": "jermaine regtop",
+      "achievement": "Level 2: 50-100k",
+      "date": "2025-10-12",
+      "avatar": "",
+      "screenshot": "screenshots/jermaine-regtop-level-2-50-100k-3975af.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Saran",
+      "full_name": "Saran",
+      "achievement": "Level 2: 50-100k",
+      "date": "2025-09-27",
+      "avatar": "avatars/saran.jpg",
+      "screenshot": "screenshots/saran-level-2-50-100k-6a93db.jpg",
+      "quote": "Hallo allemaal, Ik wil hier graag een update delen over mijn business. Ik ben nu bijna een jaar bezig met e-com. Voordat ik hiermee begon, begint van 2025 werkte ik nog fulltime in een restaurant..."
+    },
+    {
+      "name": "Thijs K.",
+      "full_name": "Thijs Kaan",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-08",
+      "avatar": "avatars/thijs-kaan.jpg",
+      "screenshot": "screenshots/thijs-kaan-level-1-10-50k-2a4b7b.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Jordy V.",
+      "full_name": "Jordy Vrooland",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-08",
+      "avatar": "",
+      "screenshot": "screenshots/jordy-vrooland-level-1-10-50k-5c0390.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Dennie v.",
+      "full_name": "Dennie van Klaveren & Ferzullah",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-24",
+      "avatar": "avatars/dennie-van-klaveren-ferzullah.jpg",
+      "screenshot": "screenshots/dennie-van-klaveren-ferzullah-level-1-10-50k-3d64f7.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Jacco v.",
+      "full_name": "Jacco van Woudenbergh",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-24",
+      "avatar": "",
+      "screenshot": "screenshots/jacco-van-woudenbergh-level-1-10-50k-3592ce.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Linda",
+      "full_name": "Linda ",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-12-15",
+      "avatar": "",
+      "screenshot": "screenshots/linda-level-1-10-50k-1dc4e4.jpg",
+      "quote": "Laatst de ruime 2 K week behaald en nu gewoon een 1 K dag behaald"
+    },
+    {
+      "name": "Terry v.",
+      "full_name": "Terry van ballegooy",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-08",
+      "avatar": "",
+      "screenshot": "",
+      "quote": ""
+    },
+    {
+      "name": "Debbie v.",
+      "full_name": "Debbie van Zuijlen ",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-10-08",
+      "avatar": "avatars/debbie-van-zuijlen.jpg",
+      "screenshot": "screenshots/debbie-van-zuijlen-level-1-10-50k-ad6292.jpg",
+      "quote": "En ineens, nou ja natuurlijk niet ineens maar was die daar! De 20K maand! Het begin is nu echt gemaakt! \ud83e\udd29"
+    },
+    {
+      "name": "Wouter d.",
+      "full_name": "Wouter de Wit",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-11-01",
+      "avatar": "avatars/wouter-de-wit.jpg",
+      "screenshot": "screenshots/wouter-de-wit-level-1-10-50k-e51161.jpg",
+      "quote": "In juni begon ik bij DSA, toen nog fulltime actief als zelfstandige in de bouwsector. Na een paar weken sleutelen aan de shop en producten testen had ik mijn eerste sale, in juli de eerste 10k..."
+    },
+    {
+      "name": "Mart S.",
+      "full_name": "Mart Snippers",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-24",
+      "avatar": "",
+      "screenshot": "screenshots/mart-snippers-level-1-10-50k-d64ff0.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Dennis d.",
+      "full_name": "Dennis de Koning",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-24",
+      "avatar": "avatars/dennis-de-koning.jpg",
+      "screenshot": "screenshots/dennis-de-koning-level-1-10-50k-4208b9.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Manuel C.",
+      "full_name": "Manuel CCM",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-13",
+      "avatar": "avatars/manuel-ccm.jpg",
+      "screenshot": "screenshots/manuel-ccm-level-1-10-50k-b8379b.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Paul B.",
+      "full_name": "Paul Bronkhorst",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-11-30",
+      "avatar": "avatars/paul-bronkhorst.jpg",
+      "screenshot": "screenshots/paul-bronkhorst-level-1-10-50k-dfb8bb.jpg",
+      "quote": "Gestart in april als noob\ud83e\udd23, 1 juni gaan draaien en gelijk verkopen. de zomer liep goed, daarna was het erg lastig. soms zelfs in weekenden niet meer en dat geeft je toch het gevoel, wil dit wel,..."
+    },
+    {
+      "name": "Jack R.",
+      "full_name": "Jack Ririassa",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-07-04",
+      "avatar": "avatars/jack-ririassa.jpg",
+      "screenshot": "screenshots/jack-ririassa-level-1-10-50k-36770f.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Alexander B.",
+      "full_name": "Alexander Braam",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-07-04",
+      "avatar": "avatars/alexander-braam.jpg",
+      "screenshot": "screenshots/alexander-braam-level-1-10-50k-4f415e.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Kevin v.",
+      "full_name": "Kevin van de Liefvoort",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-07-04",
+      "avatar": "avatars/kevin-van-de-liefvoort.jpg",
+      "screenshot": "screenshots/kevin-van-de-liefvoort-level-1-10-50k-5d5b59.jpg",
+      "quote": "Mijn eerste twee sales zijn binnen, binnen een dag nadat de advertenties live gingen! Wat ontzettend gaaf! Met dank aan @Coach Mick . Op naar meer \ud83d\udcaa\ud83c\udffe\ud83d\udd25"
+    },
+    {
+      "name": "Kees H.",
+      "full_name": "Kees Heijboer / Kees Concepts Holding",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-07-04",
+      "avatar": "avatars/kees-heijboer-kees-concepts-holding.jpg",
+      "screenshot": "screenshots/kees-heijboer-kees-concepts-holding-level-1-10-50k-5619af.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Angela R.",
+      "full_name": "Angela Roelofs ",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-11-20",
+      "avatar": "avatars/angela-roelofs.jpg",
+      "screenshot": "screenshots/angela-roelofs-level-1-10-50k-3337c9.jpg",
+      "quote": "Gisteren kreeg ik een berichtje van de bank dat mijn bedrijf precies 1 jaar bestond. Na heel veel struggels met mezelf en wat familieproblemen. Is dit wat ik toch maar heb neergezet. Zoals je ziet..."
+    },
+    {
+      "name": "Kishore R.",
+      "full_name": "Kishore Ramcharan",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-11-20",
+      "avatar": "",
+      "screenshot": "screenshots/circle-kishore-ramcharan-188a6b.jpg",
+      "quote": "Vandaag heb ik deze prachtige award mogen ontvangen van de DSA Team , en daarvoor wil ik hen vanuit mijn hart bedanken. Ik ben trots op dit team \u2014 niet alleen om hun kennis en aanpak, maar vooral..."
+    },
+    {
+      "name": "Tom",
+      "full_name": "Tom",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-19",
+      "avatar": "",
+      "screenshot": "screenshots/tom-level-1-10-50k-7c7e89.jpg",
+      "quote": "Thanks @Coach Teun voor de hulp! Nu steeds verder optimaliseren en groeien naar nog mooiere cijfers!"
+    },
+    {
+      "name": "Mara N.",
+      "full_name": "Mara Neus",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-07",
+      "avatar": "",
+      "screenshot": "screenshots/mara-neus-level-1-10-50k-a6a6bd.jpg",
+      "quote": "Ja inmiddels al 11K maand wie had dit gedacht. Alle lof gaat naar Ivo mijn topcoach. Dankjewel Ivo voor je support."
+    },
+    {
+      "name": "Mondhygi\u00ebnist R.",
+      "full_name": "Mondhygi\u00ebnist R.Lans ",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-05",
+      "avatar": "avatars/mondhygi-nist-r-lans.jpg",
+      "screenshot": "screenshots/mondhygi-nist-r-lans-level-1-10-50k-1da73a.jpg",
+      "quote": ""
+    },
+    {
+      "name": "luc g.",
+      "full_name": "luc geertzen",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-11-02",
+      "avatar": "avatars/luc-geertzen.jpg",
+      "screenshot": "screenshots/luc-geertzen-level-1-10-50k-eef959.jpg",
+      "quote": "Hierbij nog even wat resultaten van de afgelopen maand. 10k maand had ik al een tijdje terug behaald, maar die 1k dag bleef ik een beetje tegenaan hikken. Nu dan ook officieel. Daarna wel gelijk..."
+    },
+    {
+      "name": "Joost v.",
+      "full_name": "Joost van Straaten",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-09-03",
+      "avatar": "",
+      "screenshot": "screenshots/joost-van-straaten-level-1-10-50k-428b25.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Olaf v.",
+      "full_name": "Olaf van der Meer",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-10-09",
+      "avatar": "avatars/olaf-van-der-meer.jpg",
+      "screenshot": "screenshots/olaf-van-der-meer-level-1-10-50k-ebdfe8.jpg",
+      "quote": "Zo snel kan het gaan!\ud83d\ude4f\ud83c\udffc Dit is een wat ouder screenshot van mn achievements, maar laat wel een mooi beeld zien van hoe het in het begin kan gaan. Van een 300+ record dag overall, naar gemiddeld..."
+    },
+    {
+      "name": "Lester B.",
+      "full_name": "Lester Brockhoff",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-10-09",
+      "avatar": "",
+      "screenshot": "screenshots/lester-brockhoff-level-1-10-50k-abbd10.jpg",
+      "quote": "Na een knaller van een maand,1 mindere week gehad. Alsnog vind ik mijn doel wel behaald met dank aan @Coach Tristan !!!\ud83d\ude80\ud83d\ude80\ud83d\udcb0 Nu op naar mijn volgende doelen!!"
+    },
+    {
+      "name": "Jason P.",
+      "full_name": "Jason Paijers",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-12-29",
+      "avatar": "avatars/jason-paijers.jpg",
+      "screenshot": "screenshots/jason-paijers-level-1-10-50k-eaa4bb.jpg",
+      "quote": "10k + sinds 2december live"
+    },
+    {
+      "name": "Andrea M.",
+      "full_name": "Andrea Mircetic / Grey Belly",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-02-09",
+      "avatar": "avatars/andrea-mircetic-grey-belly.jpg",
+      "screenshot": "screenshots/andrea-mircetic-grey-belly-level-1-10-50k-640bb2.jpg",
+      "quote": "This is a bumpy road! Maar na vele pogingen in Meta ben ik overgestapt naar Google en heb nu een stuk sneller (2 maanden) dit resultaat behaald. Samen met @Coach Thomas denken we constant in..."
+    },
+    {
+      "name": "Maarten G.",
+      "full_name": "Maarten Gerlings",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-27",
+      "avatar": "avatars/maarten-gerlings.jpg",
+      "screenshot": "screenshots/maarten-gerlings-level-1-10-50k-8ef5cf.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Marijn W.",
+      "full_name": "Marijn Wempe",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-25",
+      "avatar": "",
+      "screenshot": "screenshots/marijn-wempe-level-1-10-50k-fbf201.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Amin B.",
+      "full_name": "Amin Bibak",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-25",
+      "avatar": "avatars/amin-bibak.jpg",
+      "screenshot": "screenshots/amin-bibak-level-1-10-50k-7dda52.jpg",
+      "quote": "Gisteren haalde ik voor het eerst meer dan 2K omzet op \u00e9\u00e9n dag. Geen viral product, geen geluk, maar gewoon het resultaat van betere productpagina\u2019s , duidelijkere communicatie naar klanten en..."
+    },
+    {
+      "name": "Martijn S.",
+      "full_name": "Martijn Splinter",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-25",
+      "avatar": "avatars/martijn-splinter.jpg",
+      "screenshot": "screenshots/martijn-splinter-level-1-10-50k-572a7a.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Sam v.",
+      "full_name": "Sam verschut ",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-25",
+      "avatar": "",
+      "screenshot": "screenshots/sam-verschut-level-1-10-50k-b665af.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Julian F.",
+      "full_name": "Julian Faso",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-25",
+      "avatar": "",
+      "screenshot": "screenshots/julian-faso-level-1-10-50k-22f223.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Tamara P.",
+      "full_name": "Tamara Peeters",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-03-30",
+      "avatar": "",
+      "screenshot": "screenshots/tamara-peeters-level-1-10-50k-286279.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Daniel S.",
+      "full_name": "Daniel Schaart",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-09-09",
+      "avatar": "avatars/daniel-schaart.jpg",
+      "screenshot": "screenshots/daniel-schaart-level-1-10-50k-8e9f8f.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Zorgdirect",
+      "full_name": "Zorgdirect",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-09-09",
+      "avatar": "avatars/zorgdirect.jpg",
+      "screenshot": "screenshots/zorgdirect-level-1-10-50k-5c6589.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Vivian K.",
+      "full_name": "Vivian Kant",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-12-26",
+      "avatar": "avatars/vivian-kant.jpg",
+      "screenshot": "screenshots/vivian-kant-level-1-10-50k-636fb1.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Joey R.",
+      "full_name": "Joey Rust",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-12-02",
+      "avatar": "avatars/joey-rust.jpg",
+      "screenshot": "screenshots/joey-rust-level-1-10-50k-4ba2f7.jpg",
+      "quote": "Na iets meer als een maand aan het adverteren met 1 product en mag ook ik eindelijk realiseren dat ik de 10K maand heb mogen bereiken. Op naar de 20K maand! \ud83c\udf89\ud83c\udf89\ud83c\udf89"
+    },
+    {
+      "name": "Barry L.",
+      "full_name": "Barry Lapre",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-04",
+      "avatar": "",
+      "screenshot": "screenshots/barry-lapre-level-1-10-50k-5854b5.jpg",
+      "quote": "25K omzet aangetikt. Klinkt als een milestone. En dat is het ook echt. Maar laat me eerlijk zijn: dit was absoluut geen rechte lijn omhoog. Het was trekken, bijsturen, falen, herpakken. Dagen..."
+    },
+    {
+      "name": "Xalos",
+      "full_name": "Xalos",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-12-24",
+      "avatar": "avatars/xalos.jpg",
+      "screenshot": "screenshots/xalos-level-1-10-50k-6590e9.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Eliasy A.",
+      "full_name": "Eliasy Acosta Francisco ",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-02-07",
+      "avatar": "avatars/eliasy-acosta-francisco.jpg",
+      "screenshot": "screenshots/eliasy-acosta-francisco-level-1-10-50k-db3f26.jpg",
+      "quote": "2026 is voor mij nu al alleen maar knallen. In slechts 39 dagen heb ik met mijn store ruim \u20ac22.5K omzet gedraaid, met een conversieratio van bijna 5%. Wat eerst onregelmatige sales waren, is nu..."
+    },
+    {
+      "name": "Pjer P.",
+      "full_name": "Pjer Podunajec",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-11-12",
+      "avatar": "avatars/pjer-podunajec.jpg",
+      "screenshot": "screenshots/pjer-podunajec-level-1-10-50k-14c51b.jpg",
+      "quote": "Ik zal de details besparen maar het is behoorlijk turbulent in mijn leven momenteel, waardoor ik de vaart die ik in het begin maakte niet volledig kan doorzetten. Ook als ik eerlijk ben heb ik het..."
+    },
+    {
+      "name": "Maarten B.",
+      "full_name": "Maarten Bakkers",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-14",
+      "avatar": "avatars/maarten-bakkers.jpg",
+      "screenshot": "screenshots/maarten-bakkers-level-1-10-50k-0d5be2.jpg",
+      "quote": "beter laat dan nooit! Heb samen met coach Luc echt dikke eerste maand gedraaid. Echt dankbaar voor de hulp. Zonder hem had ik cruciale knopen niet doorgehakt of te laat. Op het juiste moment de..."
+    },
+    {
+      "name": "Claudia H.",
+      "full_name": "Claudia Heijdel",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-02-06",
+      "avatar": "avatars/claudia-heijdel.jpg",
+      "screenshot": "screenshots/claudia-heijdel-level-1-10-50k-2e9692.jpg",
+      "quote": "Het was een hele bevalling. Een worsteling van een jaar lang. Met burn-out waar ik nog niet helemaal hersteld van ben. En nu is het dan toch gebeurd: mijn eerste advertentie met mijn eerste sales!..."
+    },
+    {
+      "name": "EE v.",
+      "full_name": "EE van der Knaap",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-02-02",
+      "avatar": "avatars/ee-van-der-knaap.jpg",
+      "screenshot": "screenshots/ee-van-der-knaap-level-1-10-50k-255d0d.jpg",
+      "quote": ""
+    },
+    {
+      "name": "maurice",
+      "full_name": "maurice",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-10-13",
+      "avatar": "",
+      "screenshot": "screenshots/maurice-level-1-10-50k-e0a6da.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Georgette",
+      "full_name": "Georgette",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-12",
+      "avatar": "avatars/georgette.jpg",
+      "screenshot": "screenshots/georgette-level-1-10-50k-a5dbea.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Merlijn K.",
+      "full_name": "Merlijn Kruid",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-12-19",
+      "avatar": "avatars/merlijn-kruid.jpg",
+      "screenshot": "screenshots/merlijn-kruid-level-1-10-50k-8efd97.jpg",
+      "quote": "Toen ik me in oktober aanmelde, had ik eigenlijk al als doel om in december mijn eerste 10K binnen te halen. Nu ik een mooie niche gevonden heb en het goed lukt met het stabiel schalen ziet her er..."
+    },
+    {
+      "name": "Ilias b.",
+      "full_name": "Ilias bahri",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-02",
+      "avatar": "avatars/ilias-bahri.jpg",
+      "screenshot": "screenshots/ilias-bahri-level-1-10-50k-4f1c8c.jpg",
+      "quote": "Een brand bouwen is nog niet eens zo makkelijk maar dat houdt ons niet tegen. Een brand bouwen wat prima loopt alleen uiteindelijk erachter komt dat het niet 100% werkt\u2026 blijf je het verkopen voor..."
+    },
+    {
+      "name": "Wouter D.",
+      "full_name": "Wouter & Debbie",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-02",
+      "avatar": "avatars/wouter-debbie.jpg",
+      "screenshot": "screenshots/wouter-debbie-level-1-10-50k-477ab5.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Rick v.",
+      "full_name": "Rick van Hekken",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-09-08",
+      "avatar": "avatars/rick-van-hekken.jpg",
+      "screenshot": "screenshots/rick-van-hekken-level-1-10-50k-68c9ce.jpg",
+      "quote": "Na een 1K dag, 10K maand nu ook de 10K week \ud83d\ude01\ud83d\ude80 Super blij maar ook wel verrast met de goede resultaten van de laatste periode. Het knippen van 1-2 contentvideo\u2019s maakte het verschil: een net iets..."
+    },
+    {
+      "name": "Djinny",
+      "full_name": "Djinny",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-12-22",
+      "avatar": "",
+      "screenshot": "screenshots/djinny-level-1-10-50k-299f6c.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Christopher B.",
+      "full_name": "Christopher Boogers",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-22",
+      "avatar": "avatars/christopher-boogers.jpg",
+      "screenshot": "screenshots/christopher-boogers-level-1-10-50k-0aa308.jpg",
+      "quote": "Daar is die dan! Sinds juni begonnen met adverteren en tot nu toe mooie resultaten weten te behalen waaronder nu mijn eerste \u20ac100K omzet! \u2705 Ontzettend blij en trots op mezelf wat ik tot nu toe heb..."
+    },
+    {
+      "name": "Tolga K.",
+      "full_name": "Tolga Kandemir",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-22",
+      "avatar": "",
+      "screenshot": "screenshots/tolga-kandemir-level-1-10-50k-d2e314.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Omar S.",
+      "full_name": "Omar & Salma El Harrouni",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-22",
+      "avatar": "",
+      "screenshot": "screenshots/omar-salma-el-harrouni-level-1-10-50k-6c36d7.jpg",
+      "quote": ""
+    },
+    {
+      "name": "ISHMARA G.",
+      "full_name": "ISHMARA GUMBS",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-22",
+      "avatar": "",
+      "screenshot": "screenshots/ishmara-gumbs-level-1-10-50k-8bb4d9.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Lorenzo v.",
+      "full_name": "Lorenzo van Rheenen",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-08-22",
+      "avatar": "",
+      "screenshot": "screenshots/lorenzo-van-rheenen-level-1-10-50k-88c9c3.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Tho H.",
+      "full_name": "Tho Han",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-11-24",
+      "avatar": "",
+      "screenshot": "screenshots/tho-han-level-1-10-50k-d5069e.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Martijn H.",
+      "full_name": "Martijn Huijser",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-11-24",
+      "avatar": "avatars/martijn-huijser.jpg",
+      "screenshot": "screenshots/martijn-huijser-level-1-10-50k-6ef650.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Mitchel L.",
+      "full_name": "Mitchel & Lisette Vonk",
+      "achievement": "Level 1: 10-50k",
+      "date": "2025-12-01",
+      "avatar": "avatars/mitchel-lisette-vonk.jpg",
+      "screenshot": "screenshots/mitchel-lisette-vonk-level-1-10-50k-5cea97.jpg",
+      "quote": "Bijna een miljoen Tsjechische kronen = 40.000 euro omzet. December staat het doel op 100k \ud83d\ude80\ud83d\udd25"
+    },
+    {
+      "name": "Patrick P.",
+      "full_name": "Patrick Prasing",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-13",
+      "avatar": "avatars/patrick-prasing.jpg",
+      "screenshot": "screenshots/patrick-prasing-level-1-10-50k-a57d5a.jpg",
+      "quote": "Al een tijd bezig maar nu is het dan eindelijk zover! zojuist de bestelling gehad die deze 30dagen naar een 10k maand bezorgd! En ik nu weer een doel kan afstrepen! Uiteraard super trots op dit..."
+    },
+    {
+      "name": "Georgette F.",
+      "full_name": "Georgette Faverey",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-13",
+      "avatar": "avatars/georgette-faverey.jpg",
+      "screenshot": "screenshots/georgette-faverey-level-1-10-50k-7c8e79.jpg",
+      "quote": "Na 2 maanden de 30K maand behaald. \ud83e\udd73 Gisteren mijn eerste 2.2 K dag! Op naar 50K in januari met super support van @ @Coach Matthew !"
+    },
+    {
+      "name": "Willem v.",
+      "full_name": "Willem van der Heijden",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-13",
+      "avatar": "avatars/willem-van-der-heijden.jpg",
+      "screenshot": "screenshots/willem-van-der-heijden-level-1-10-50k-fd9590.jpg",
+      "quote": "Hii mede-studenten, Ik ben nu ongeveer 8 maanden bezig binnen DSA. In de eerste maanden heb ik veel zelf geprobeerd, fouten gemaakt en daar enorm veel van geleerd. Uiteindelijk heb ik toch..."
+    },
+    {
+      "name": "Chadin",
+      "full_name": "Chadin ",
+      "achievement": "Level 1: 10-50k",
+      "date": "2026-01-13",
+      "avatar": "avatars/chadin.jpg",
+      "screenshot": "screenshots/chadin-level-1-10-50k-00cba3.jpg",
+      "quote": "Een ontzettende inkakker de laatste dagen, wat waarschijnlijk komt door het niet aanmaken van een nieuwe Adset, maar het vervangen van de bestaande filmpjes in de huidige Adset. Desondanks alsnog..."
+    },
+    {
+      "name": "Linda W.",
+      "full_name": "Linda Welten ",
+      "achievement": "0-10k",
+      "date": "2025-12-16",
+      "avatar": "",
+      "screenshot": "screenshots/linda-welten-0-10k-b56b59.jpg",
+      "quote": "De afgelopen tijd had ik even een stapje teruggedaan, omdat ik merkte dat ik er onrustig van werd en niet verder kwam. Ik werkte op een oude laptop die de hele tijd vastliep en niet de juiste..."
+    },
+    {
+      "name": "Thisja v.",
+      "full_name": "Thisja van der Kruijs | Thisja Ontwerp",
+      "achievement": "0-10k",
+      "date": "2025-12-16",
+      "avatar": "",
+      "screenshot": "screenshots/thisja-van-der-kruijs-thisja-ontwerp-0-10k-565489.jpg",
+      "quote": "Exact 30 dagen na de gewonnen 1-op-1 call, gisteren mijn eerste 5K-maand behaald. Volgende doel: 10K. @Coach Jermeau mega bedankt voor de waardevolle tips!"
+    },
+    {
+      "name": "Yvonne V.",
+      "full_name": "Yvonne Van rosendaal",
+      "achievement": "0-10k",
+      "date": "2025-12-30",
+      "avatar": "avatars/yvonne-van-rosendaal.jpg",
+      "screenshot": "screenshots/yvonne-van-rosendaal-0-10k-ac001d.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Ivar H.",
+      "full_name": "Ivar Hunter",
+      "achievement": "0-10k",
+      "date": "2025-12-08",
+      "avatar": "",
+      "screenshot": "screenshots/ivar-hunter-0-10k-bc3c73.jpg",
+      "quote": "2.4k omzet vandaag, gaan we de 3 aantikken???"
+    },
+    {
+      "name": "Iwan e.",
+      "full_name": "Iwan escabache",
+      "achievement": "0-10k",
+      "date": "2025-12-08",
+      "avatar": "",
+      "screenshot": "screenshots/iwan-escabache-0-10k-e11514.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Zina S.",
+      "full_name": "Zina Skornja",
+      "achievement": "0-10k",
+      "date": "2025-08-24",
+      "avatar": "",
+      "screenshot": "screenshots/zina-skornja-0-10k-5a9e03.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Ritchie W.",
+      "full_name": "Ritchie Wouters",
+      "achievement": "0-10k",
+      "date": "2025-12-20",
+      "avatar": "avatars/ritchie-wouters.jpg",
+      "screenshot": "screenshots/ritchie-wouters-0-10k-ebdbc8.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Marisca A.",
+      "full_name": "Marisca Alings",
+      "achievement": "0-10k",
+      "date": "2026-01-11",
+      "avatar": "avatars/marisca-alings.jpg",
+      "screenshot": "screenshots/marisca-alings-0-10k-3dd30a.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Tuncay T.",
+      "full_name": "Tuncay Tophan ",
+      "achievement": "0-10k",
+      "date": "2025-11-01",
+      "avatar": "",
+      "screenshot": "screenshots/tuncay-tophan-0-10k-055989.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Majda",
+      "full_name": "Majda",
+      "achievement": "0-10k",
+      "date": "2025-11-13",
+      "avatar": "avatars/majda.jpg",
+      "screenshot": "screenshots/majda-0-10k-d33d35.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Virgil H.",
+      "full_name": "Virgil Hassell",
+      "achievement": "0-10k",
+      "date": "2025-11-27",
+      "avatar": "avatars/virgil-hassell.jpg",
+      "screenshot": "screenshots/virgil-hassell-0-10k-ddce02.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Jan d.",
+      "full_name": "Jan de Bruin ",
+      "achievement": "0-10k",
+      "date": "2026-01-26",
+      "avatar": "avatars/jan-de-bruin.jpg",
+      "screenshot": "screenshots/jan-de-bruin-0-10k-ab467b.jpg",
+      "quote": "Ik wil heel graag mijn @Coach Mick enorm bedanken voor het mij aan de hand nemen naar mijn eerste sale (na 3 uur adverteren). Ontzettend trots op wat we in een zeer korte tijd samen hebben..."
+    },
+    {
+      "name": "Jurens D.",
+      "full_name": "Jurens D Services",
+      "achievement": "0-10k",
+      "date": "2026-01-26",
+      "avatar": "avatars/jurens-d-services.jpg",
+      "screenshot": "screenshots/jurens-d-services-0-10k-79e2c9.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Marjet B.",
+      "full_name": "Marjet Bremer",
+      "achievement": "0-10k",
+      "date": "2026-01-31",
+      "avatar": "avatars/marjet-bremer.jpg",
+      "screenshot": "screenshots/marjet-bremer-0-10k-87e176.jpg",
+      "quote": "Ben blij met wat ik heb bereikt en klaar om 2026 verder te knallen! Enorm veel geleerd van mijn coach Tristan. Wens iedereen een fijne jaarwisseling en stijgende omzetten in 2026\ud83e\udd42"
+    },
+    {
+      "name": "Katie K.",
+      "full_name": "Katie Karssen van der Spree",
+      "achievement": "0-10k",
+      "date": "2025-11-04",
+      "avatar": "",
+      "screenshot": "screenshots/katie-karssen-van-der-spree-0-10k-8057f0.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Ryan S.",
+      "full_name": "Ryan Smit",
+      "achievement": "0-10k",
+      "date": "2025-11-04",
+      "avatar": "avatars/ryan-smit.jpg",
+      "screenshot": "screenshots/ryan-smit-0-10k-655508.jpg",
+      "quote": "(voor het juiste level) hierbij mijn 4k maand, heb na het testen van 72 producten een product gevonden waarbij ik me eerste winstgevende dagen heb gedraaid en een tot zo ver 4k maand. doel is..."
+    },
+    {
+      "name": "Jacob S.",
+      "full_name": "Jacob Slegh 1",
+      "achievement": "0-10k",
+      "date": "2026-01-19",
+      "avatar": "",
+      "screenshot": "screenshots/jacob-slegh-1-0-10k-e9e41e.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Tinka S.",
+      "full_name": "Tinka Schaap",
+      "achievement": "0-10k",
+      "date": "2025-10-20",
+      "avatar": "avatars/tinka-schaap.jpg",
+      "screenshot": "screenshots/tinka-schaap-0-10k-7a4b47.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Jami B.",
+      "full_name": "Jami Baert",
+      "achievement": "0-10k",
+      "date": "2026-01-05",
+      "avatar": "avatars/jami-baert.jpg",
+      "screenshot": "screenshots/jami-baert-0-10k-5ca94b.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Maura L.",
+      "full_name": "Maura Leonor van der Bruggen",
+      "achievement": "0-10k",
+      "date": "2025-10-09",
+      "avatar": "",
+      "screenshot": "screenshots/maura-leonor-van-der-bruggen-0-10k-1733b9.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Gillian B.",
+      "full_name": "Gillian Bhola",
+      "achievement": "0-10k",
+      "date": "2025-11-26",
+      "avatar": "",
+      "screenshot": "screenshots/gillian-bhola-0-10k-3444ed.jpg",
+      "quote": "Nadat ik 2 week geleden mijn eerste sale te hebben gemaakt, heb ik deze week mijn eerste 1K omzet gedraaid in 1 week, eingelijk na 5 dagen al maar, naar een weekje kijken vond ik toch wel een mooi..."
+    },
+    {
+      "name": "Richard L.",
+      "full_name": "Richard Lommers",
+      "achievement": "0-10k",
+      "date": "2025-11-26",
+      "avatar": "avatars/richard-lommers.jpg",
+      "screenshot": "screenshots/richard-lommers-0-10k-e0faca.jpg",
+      "quote": "Doen wat het beste voor je voelt, doe het met plezier, werk hard en haal er voldoening uit. Dat heeft mij altijd gebracht met wat ik wilde bereiken in mijn leven. Ik knal gewoon door op mijn eigen..."
+    },
+    {
+      "name": "Tim H.",
+      "full_name": "Tim Haverkamp",
+      "achievement": "0-10k",
+      "date": "2026-01-18",
+      "avatar": "avatars/tim-haverkamp.jpg",
+      "screenshot": "screenshots/tim-haverkamp-0-10k-18ba2d.jpg",
+      "quote": "Mijn eerste 6k aan sales als dropshipper, nu werken aan een nieuw hoofdstuk; een eigen kledingbrand! Begin december eerste bulk order binnen. We gaan zien waar het ons brengt \ud83d\udc7e"
+    },
+    {
+      "name": "Raymon H.",
+      "full_name": "Raymon Hernandez en Nadia Manders ",
+      "achievement": "0-10k",
+      "date": "2026-01-18",
+      "avatar": "",
+      "screenshot": "screenshots/raymon-hernandez-en-nadia-manders-0-10k-e442ba.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Samantha K.",
+      "full_name": "Samantha Koeman",
+      "achievement": "0-10k",
+      "date": "2026-01-30",
+      "avatar": "avatars/samantha-koeman.jpg",
+      "screenshot": "screenshots/samantha-koeman-0-10k-5f86af.jpg",
+      "quote": "Hi allemaal, Hierbij deel ik mijn eerste sale. De 2e was een test omdat iets nog niet helemaal soepel werkte voor mijn gevoel en ik graag wilde weten hoe het werkte. Ik adverteer nog niet dus of..."
+    },
+    {
+      "name": "Ram\u00f3n",
+      "full_name": "Ram\u00f3n ",
+      "achievement": "0-10k",
+      "date": "2026-02-09",
+      "avatar": "avatars/ram-n.jpg",
+      "screenshot": "",
+      "quote": "In 2.5 week 4k omzet \ud83d\ude80"
+    },
+    {
+      "name": "Thaino",
+      "full_name": "Thaino",
+      "achievement": "0-10k",
+      "date": "2025-11-14",
+      "avatar": "avatars/thaino.jpg",
+      "screenshot": "screenshots/thaino-0-10k-cccc27.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Maud v.",
+      "full_name": "Maud van bavel",
+      "achievement": "0-10k",
+      "date": "2025-12-05",
+      "avatar": "",
+      "screenshot": "screenshots/maud-van-bavel-0-10k-3b6b48.jpg",
+      "quote": "Bijna willen stoppen en toch door gezet en dit weten te behalen\ud83d\ude4f"
+    },
+    {
+      "name": "Mariska S.",
+      "full_name": "Mariska Salamony",
+      "achievement": "0-10k",
+      "date": "2025-12-09",
+      "avatar": "avatars/mariska-salamony.jpg",
+      "screenshot": "screenshots/mariska-salamony-0-10k-2eb29f.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Dennis v.",
+      "full_name": "Dennis van der Velde",
+      "achievement": "0-10k",
+      "date": "2025-09-09",
+      "avatar": "avatars/dennis-van-der-velde.jpg",
+      "screenshot": "screenshots/dennis-van-der-velde-0-10k-6d18b7.jpg",
+      "quote": "Hoe verhelderend is het als je inzicht hebt in alles. Nu maar eens bedenken hoe ik dit aan ga pakken volgend jaar."
+    },
+    {
+      "name": "Mizgin A.",
+      "full_name": "Mizgin  Abdalla ",
+      "achievement": "0-10k",
+      "date": "2025-09-09",
+      "avatar": "",
+      "screenshot": "screenshots/mizgin-abdalla-0-10k-b09b10.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Wesley",
+      "full_name": "Wesley",
+      "achievement": "0-10k",
+      "date": "2025-12-18",
+      "avatar": "avatars/wesley.jpg",
+      "screenshot": "screenshots/wesley-0-10k-8ce1c6.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Saly",
+      "full_name": "Saly",
+      "achievement": "0-10k",
+      "date": "2025-12-18",
+      "avatar": "",
+      "screenshot": "screenshots/saly-0-10k-f84320.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Glenn G.",
+      "full_name": "Glenn Goslinga",
+      "achievement": "0-10k",
+      "date": "2025-11-15",
+      "avatar": "avatars/glenn-goslinga.jpg",
+      "screenshot": "screenshots/glenn-goslinga-0-10k-b2602f.jpg",
+      "quote": "Minimaal 100 per dag, en bijna 3K in de maand. En dat zonder er 40 uur voor te werken in de matrix\ud83d\udd25"
+    },
+    {
+      "name": "Kees B.",
+      "full_name": "Kees Blaauw",
+      "achievement": "0-10k",
+      "date": "2025-11-15",
+      "avatar": "avatars/kees-blaauw.jpg",
+      "screenshot": "screenshots/kees-blaauw-0-10k-dc250b.jpg",
+      "quote": "Vandaag heb ik mijn eerste maand mogen afsluiten met een omzet van 3k. We zetten steeds meer kleine stapjes richting het grotere doel en dat voelt super goed! Ik ben benieuwd wat de komende tijd..."
+    },
+    {
+      "name": "Maartje R.",
+      "full_name": "Maartje (m.g) Rijkelijkhuizen ",
+      "achievement": "0-10k",
+      "date": "2025-12-24",
+      "avatar": "avatars/maartje-m-g-rijkelijkhuizen.jpg",
+      "screenshot": "screenshots/maartje-m-g-rijkelijkhuizen-0-10k-b11e65.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Mike v.",
+      "full_name": "Mike van Rijsbergen",
+      "achievement": "0-10k",
+      "date": "2025-11-19",
+      "avatar": "avatars/mike-van-rijsbergen.jpg",
+      "screenshot": "screenshots/mike-van-rijsbergen-0-10k-20f4cb.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Grey B.",
+      "full_name": "Grey Belly ",
+      "achievement": "0-10k",
+      "date": "2026-02-06",
+      "avatar": "",
+      "screenshot": "screenshots/grey-belly-0-10k-8309bf.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Rim V.",
+      "full_name": "Rim Vrenken",
+      "achievement": "0-10k",
+      "date": "2026-02-06",
+      "avatar": "",
+      "screenshot": "screenshots/rim-vrenken-0-10k-8ebecc.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Ritchie E.",
+      "full_name": "Ritchie & Emy",
+      "achievement": "0-10k",
+      "date": "2026-01-21",
+      "avatar": "avatars/ritchie-emy.jpg",
+      "screenshot": "screenshots/ritchie-emy-0-10k-096036.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Novedad N.",
+      "full_name": "Novedad NV",
+      "achievement": "0-10k",
+      "date": "2026-01-21",
+      "avatar": "",
+      "screenshot": "screenshots/novedad-nv-0-10k-da255e.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Viethoa",
+      "full_name": "Viethoa",
+      "achievement": "0-10k",
+      "date": "2026-01-21",
+      "avatar": "avatars/viethoa.jpg",
+      "screenshot": "screenshots/viethoa-0-10k-f6008a.jpg",
+      "quote": ""
+    },
+    {
+      "name": "hanaa",
+      "full_name": "hanaa",
+      "achievement": "0-10k",
+      "date": "2026-01-21",
+      "avatar": "avatars/hanaa.jpg",
+      "screenshot": "screenshots/hanaa-0-10k-27391a.jpg",
+      "quote": "Sinds ik met mijn dropshipping avontuur begon, heb ik echt al z\u00f3 veel geleerd. Het begon allemaal een beetje chaotisch, en soms is het eigenlijk wel goed om eerst alleen dingen te ervaren, want..."
+    },
+    {
+      "name": "Axel B.",
+      "full_name": "Axel Brouwer",
+      "achievement": "0-10k",
+      "date": "2025-10-05",
+      "avatar": "",
+      "screenshot": "screenshots/axel-brouwer-0-10k-b8b44e.jpg",
+      "quote": "Na hard te hebben gewerkt, hebben wij de 1k week aangetikt! 8894.95 DKK= 1.191,22 Euros. Super blij mee, en op naar het volgende niveau. \u2018\u2018With the right mindset you can achieve anything\u201d lets go!"
+    },
+    {
+      "name": "Mohamed H.",
+      "full_name": "Mohamed Hossine",
+      "achievement": "0-10k",
+      "date": "2025-12-03",
+      "avatar": "",
+      "screenshot": "screenshots/mohamed-hossine-0-10k-24f4f7.jpg",
+      "quote": "Toch ziek dit percentage, ook ineens mijn recorddag wat betreft aantal sales en omzet. Stel je voor dat dit percentage een maandelijkse gemiddelde zou zijn. Ziek toch? Voor mij toch wel weer..."
+    },
+    {
+      "name": "Ashley S.",
+      "full_name": "Ashley Samwel",
+      "achievement": "0-10k",
+      "date": "2025-09-27",
+      "avatar": "",
+      "screenshot": "screenshots/ashley-samwel-0-10k-b02392.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Chadine c.",
+      "full_name": "Chadine care ",
+      "achievement": "0-10k",
+      "date": "2025-10-02",
+      "avatar": "avatars/chadine-care.jpg",
+      "screenshot": "screenshots/chadine-care-0-10k-b53c29.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Mitchel S.",
+      "full_name": "Mitchel Schenker",
+      "achievement": "0-10k",
+      "date": "2025-12-31",
+      "avatar": "avatars/mitchel-schenker.jpg",
+      "screenshot": "screenshots/circle-mitchel-schenker-d47151.jpg",
+      "quote": "Whoop Whoop eerste sale is binnen \ud83e\udd29"
+    },
+    {
+      "name": "Ritchie e.",
+      "full_name": "Ritchie en Emy",
+      "achievement": "0-10k",
+      "date": "2026-01-02",
+      "avatar": "avatars/ritchie-en-emy.jpg",
+      "screenshot": "screenshots/ritchie-en-emy-0-10k-043582.jpg",
+      "quote": "Helemaal vergeten om in de gaten te houden en de 10K maand dus ruim behaald op dit moment en onderweg naar een 20K maand! Doel is nu een 10K week! 2026 gaat voor ons lekker"
+    },
+    {
+      "name": "Gijs v.",
+      "full_name": "Gijs vandersteegen",
+      "achievement": "0-10k",
+      "date": "2026-01-06",
+      "avatar": "",
+      "screenshot": "screenshots/gijs-vandersteegen-0-10k-6eba91.jpg",
+      "quote": "Loop wat achter door omstandigheden\u2026 maar toch nog even wat resultaten van december.. veel \u201cleermomenten\u201d beleefd met een gemengd gevoel. Heb in het begin de verkeerde keuze gemaakt om met 4..."
+    },
+    {
+      "name": "Jenz B.",
+      "full_name": "Jenz Breemans",
+      "achievement": "0-10k",
+      "date": "2025-10-19",
+      "avatar": "",
+      "screenshot": "screenshots/jenz-breemans-0-10k-488961.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Joyce L.",
+      "full_name": "Joyce Lubbers",
+      "achievement": "0-10k",
+      "date": "2025-12-01",
+      "avatar": "avatars/joyce-lubbers.jpg",
+      "screenshot": "screenshots/joyce-lubbers-0-10k-74a95e.jpg",
+      "quote": "Mijn nieuwe doel was voor de Kerst (of eigenlijk einde jaar) de 5K omzet te behalen. Inmiddels zit ik al bijna tegen de 6K aan. En ben ik benieuwd wat de eindstand van 2025 gaat worden om 2026 in..."
+    },
+    {
+      "name": "Richard e.",
+      "full_name": "Richard en Tineke",
+      "achievement": "0-10k",
+      "date": "2026-01-20",
+      "avatar": "avatars/richard-en-tineke.jpg",
+      "screenshot": "screenshots/richard-en-tineke-0-10k-aa3d02.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Robin H.",
+      "full_name": "Robin Hendriksen",
+      "achievement": "0-10k",
+      "date": "2026-02-04",
+      "avatar": "avatars/robin-hendriksen.jpg",
+      "screenshot": "screenshots/robin-hendriksen-0-10k-0f4979.jpg",
+      "quote": "Afgelopen nacht zijn de advertenties live gegaan van het 3e product wat ik nu test. Vervolgens heerlijk wakker worden, eerste sale in de pocket! Ik heb keiharde doelen voor mezelf gezet voor de..."
+    },
+    {
+      "name": "Pascal V.",
+      "full_name": "Pascal Van Doesburg",
+      "achievement": "0-10k",
+      "date": "2025-12-28",
+      "avatar": "avatars/pascal-van-doesburg.jpg",
+      "screenshot": "screenshots/pascal-van-doesburg-0-10k-f9b3e4.jpg",
+      "quote": "Hallo allemaal, Ik heb een hoop geleerd maar was zo eigenwijs (terwijl ik de cursus had gekocht) om zelf veel te gaan rommelen op het internet. ondertussen 4 maanden (en veel kennis) verder maar..."
+    },
+    {
+      "name": "Brian B.",
+      "full_name": "Brian Borms",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-22",
+      "avatar": "avatars/brian-borms.jpg",
+      "screenshot": "screenshots/brian-borms-eerste-sale-415e41.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Hanife B.",
+      "full_name": "Hanife Boekholt",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-13",
+      "avatar": "avatars/hanife-boekholt.jpg",
+      "screenshot": "",
+      "quote": ""
+    },
+    {
+      "name": "Rosie K.",
+      "full_name": "Rosie Kroon Brands",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-28",
+      "avatar": "",
+      "screenshot": "screenshots/rosie-kroon-brands-eerste-sale-e03b5e.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Vof A.",
+      "full_name": "Vof Aslander",
+      "achievement": "Eerste Sale",
+      "date": "2025-12-16",
+      "avatar": "avatars/vof-aslander.jpg",
+      "screenshot": "screenshots/vof-aslander-eerste-sale-3987da.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Priscilla S.",
+      "full_name": "Priscilla Stoeltjes",
+      "achievement": "Eerste Sale",
+      "date": "2025-12-08",
+      "avatar": "",
+      "screenshot": "screenshots/priscilla-stoeltjes-eerste-sale-3fe003.jpg",
+      "quote": "Na een aantal maandjes bij DSA zijn de eerste sales een feit, het is zeker nog niet wat het moet zijn maar het begin is er. Vind het nog steeds lastig hoe je nou winnende producten vind en daar..."
+    },
+    {
+      "name": "Max M.",
+      "full_name": "Max Maniet",
+      "achievement": "Eerste Sale",
+      "date": "2025-12-20",
+      "avatar": "avatars/max-maniet.jpg",
+      "screenshot": "screenshots/max-maniet-eerste-sale-9f26b0.jpg",
+      "quote": "Ik weet niet goed wat ik moet zeggen. Het is toch al wel een rollercoaster geweest met de Meta-ads en ik heb er al veel geld in ge\u00efnvesteerd om tot nu toe maar \u00e9\u00e9n sale te hebben. Maar hopelijk..."
+    },
+    {
+      "name": "Danique G.",
+      "full_name": "Danique Gras",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-23",
+      "avatar": "avatars/danique-gras.jpg",
+      "screenshot": "screenshots/danique-gras-eerste-sale-41a48f.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Arjen L.",
+      "full_name": "Arjen Lemmens 2",
+      "achievement": "Eerste Sale",
+      "date": "2026-02-08",
+      "avatar": "avatars/arjen-lemmens-2.jpg",
+      "screenshot": "screenshots/arjen-lemmens-2-eerste-sale-65be05.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Goedele R.",
+      "full_name": "Goedele Rapp\u00e9",
+      "achievement": "Eerste Sale",
+      "date": "2026-02-08",
+      "avatar": "avatars/goedele-rapp.jpg",
+      "screenshot": "screenshots/goedele-rapp-eerste-sale-2989d5.jpg",
+      "quote": "Na een moeilijke start ook de eerste sale binnen gehaald. Dit smaakt naar meer !!! Volop voorbereiden nu om na Chinees Nieuwjaar te knallen."
+    },
+    {
+      "name": "Joey M.",
+      "full_name": "Joey Molenaar",
+      "achievement": "Eerste Sale",
+      "date": "2025-11-01",
+      "avatar": "avatars/joey-molenaar.jpg",
+      "screenshot": "screenshots/joey-molenaar-eerste-sale-410009.jpg",
+      "quote": "En de eerste sale is binnen! Weekje online en draai nu mijn vierde dag ads. Vier producten gehad en de (killing) regeltjes gevolgd. MAAR omdat mijn pixel nog niet lekker opgewarmd is kwam de data..."
+    },
+    {
+      "name": "EA C.",
+      "full_name": "EA Coster",
+      "achievement": "Eerste Sale",
+      "date": "2025-11-01",
+      "avatar": "",
+      "screenshot": "screenshots/ea-coster-eerste-sale-3938a2.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Mick B.",
+      "full_name": "Mick Boersma",
+      "achievement": "Eerste Sale",
+      "date": "2025-12-25",
+      "avatar": "",
+      "screenshot": "screenshots/mick-boersma-eerste-sale-bb5a8d.jpg",
+      "quote": "Begin november ben ik gestart met DSA. Een maand later heb ik besloten om 1-op-1 coaching te nemen bij coach Danny, wat het hele traject in no time heeft versneld. Mijn doel was om dit jaar hoe..."
+    },
+    {
+      "name": "Resist2it",
+      "full_name": "Resist2it",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-24",
+      "avatar": "avatars/resist2it.jpg",
+      "screenshot": "",
+      "quote": "Gisteren was de site eindelijk in orde en we hebben hem online gezet. Vanmorgen onze eerste sale gehad! Yoehoo! Super leuk dit. Na al het harde werk\u2026. en we zijn heel trots op onze shop ook. Dit..."
+    },
+    {
+      "name": "Daan D.",
+      "full_name": "Daan Dera",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-24",
+      "avatar": "avatars/daan-dera.jpg",
+      "screenshot": "screenshots/daan-dera-eerste-sale-b40ee1.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Daantjes B.",
+      "full_name": "Daantjes Boetiek",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-24",
+      "avatar": "",
+      "screenshot": "screenshots/daantjes-boetiek-eerste-sale-57592a.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Kemal T.",
+      "full_name": "Kemal Tolga Caliskan",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-28",
+      "avatar": "",
+      "screenshot": "screenshots/kemal-tolga-caliskan-eerste-sale-f715b5.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Alek S.",
+      "full_name": "Alek Schaareman",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-23",
+      "avatar": "",
+      "screenshot": "screenshots/alek-schaareman-eerste-sale-5b14e5.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Kevin P.",
+      "full_name": "Kevin Paesch",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-15",
+      "avatar": "avatars/kevin-paesch.jpg",
+      "screenshot": "screenshots/kevin-paesch-eerste-sale-77a4fb.jpg",
+      "quote": "Mijn eerste twee sales zijn binnen, binnen een dag nadat de advertenties live gingen! Wat ontzettend gaaf! Met dank aan @Coach Mick . Op naar meer \ud83d\udcaa\ud83c\udffe\ud83d\udd25"
+    },
+    {
+      "name": "Karen M.",
+      "full_name": "Karen Mellaert",
+      "achievement": "Eerste Sale",
+      "date": "2025-08-31",
+      "avatar": "",
+      "screenshot": "screenshots/karen-mellaert-eerste-sale-704899.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Kirsten v.",
+      "full_name": "Kirsten van dongen ",
+      "achievement": "Eerste Sale",
+      "date": "2025-08-31",
+      "avatar": "",
+      "screenshot": "screenshots/kirsten-van-dongen-eerste-sale-54f11d.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Huub V.",
+      "full_name": "Huub Verdel",
+      "achievement": "Eerste Sale",
+      "date": "2025-08-31",
+      "avatar": "avatars/huub-verdel.jpg",
+      "screenshot": "screenshots/huub-verdel-eerste-sale-314969.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Rivaldo",
+      "full_name": "Rivaldo",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-07",
+      "avatar": "",
+      "screenshot": "screenshots/rivaldo-eerste-sale-fdcad2.jpg",
+      "quote": ""
+    },
+    {
+      "name": "remco m.",
+      "full_name": "remco montforts",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-07",
+      "avatar": "",
+      "screenshot": "screenshots/remco-montforts-eerste-sale-e96f4f.jpg",
+      "quote": "Soms duurt het langer als de ander het doet maar door goede coaching en tijd komt het vanzelf Dankjewel coach Luc voor de juiste hulp"
+    },
+    {
+      "name": "Sylvia W.",
+      "full_name": "Sylvia Weiler",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-20",
+      "avatar": "avatars/sylvia-weiler.jpg",
+      "screenshot": "screenshots/sylvia-weiler-eerste-sale-d4cf41.jpg",
+      "quote": "Vorige maand gestart met testen en al een en ander aan sales binnengehaald. Nu alles aan het klaarmaken om de komende weken te kunnen knallen! @Coach Daphne @Coach Jermeau"
+    },
+    {
+      "name": "Joey A.",
+      "full_name": "Joey Aenmey",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-29",
+      "avatar": "avatars/joey-aenmey.jpg",
+      "screenshot": "screenshots/joey-aenmey-eerste-sale-c421fe.jpg",
+      "quote": "En de eerste sale is binnen! Weekje online en draai nu mijn vierde dag ads. Vier producten gehad en de (killing) regeltjes gevolgd. MAAR omdat mijn pixel nog niet lekker opgewarmd is kwam de data..."
+    },
+    {
+      "name": "Laura v.",
+      "full_name": "Laura van der Hout",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-29",
+      "avatar": "avatars/laura-van-der-hout.jpg",
+      "screenshot": "screenshots/laura-van-der-hout-eerste-sale-64f1ee.jpg",
+      "quote": "Hi allemaal, Gisteren ben ik live gegaan, niet zomaar met een product maar direct een brand. De reden hiervoor ligt persoonlijk. Zodat er iets moois opgebouwd kan worden waar mensen iets aan..."
+    },
+    {
+      "name": "Gilbert M.",
+      "full_name": "Gilbert Mijnhijmer",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-09",
+      "avatar": "",
+      "screenshot": "screenshots/gilbert-mijnhijmer-eerste-sale-75b9c8.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Hamid M.",
+      "full_name": "Hamid Mohammadi",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-07",
+      "avatar": "",
+      "screenshot": "screenshots/hamid-mohammadi-eerste-sale-0c8ae0.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Jan v.",
+      "full_name": "Jan van Gelder",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-18",
+      "avatar": "avatars/jan-van-gelder.jpg",
+      "screenshot": "screenshots/jan-van-gelder-eerste-sale-972b22.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Lars p.",
+      "full_name": "Lars peeters",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-18",
+      "avatar": "avatars/lars-peeters.jpg",
+      "screenshot": "screenshots/lars-peeters-eerste-sale-791551.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Tammy H.",
+      "full_name": "Tammy Harris",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-18",
+      "avatar": "avatars/tammy-harris.jpg",
+      "screenshot": "screenshots/tammy-harris-eerste-sale-1a59a2.jpg",
+      "quote": "Wow was echt vergeten hoe dat dopamine shot voelde van dat verkoopgeluidje op je telefoon\ud83d\ude06 Nu wil ik weer meer! LOL Op 4 januari ben ik gestart met het in elkaar draaien van deze shop omdat ik met..."
+    },
+    {
+      "name": "Ryan d.",
+      "full_name": "Ryan den Bekker",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-16",
+      "avatar": "avatars/ryan-den-bekker.jpg",
+      "screenshot": "screenshots/ryan-den-bekker-eerste-sale-459f10.jpg",
+      "quote": ""
+    },
+    {
+      "name": "S.L. D.",
+      "full_name": "S.L. D\u00b4Amico Verpleging",
+      "achievement": "Eerste Sale",
+      "date": "2025-11-03",
+      "avatar": "avatars/s-l-d-amico-verpleging.jpg",
+      "screenshot": "screenshots/s-l-d-amico-verpleging-eerste-sale-4a478a.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Paul S.",
+      "full_name": "Paul Stuart",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-24",
+      "avatar": "avatars/paul-stuart.jpg",
+      "screenshot": "screenshots/paul-stuart-eerste-sale-66167f.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Katinka v.",
+      "full_name": "Katinka van Tongeren",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-03",
+      "avatar": "avatars/katinka-van-tongeren.jpg",
+      "screenshot": "screenshots/katinka-van-tongeren-eerste-sale-79381b.jpg",
+      "quote": "Yes daar is hij dan! Eindelijk kan ik delen dat ik mijn 1e sale heb. Gisteren live gegaan met mijn ads, na een paar checkouts bij het winkelwagentje begon ik te twijfelen of alles wel goed..."
+    },
+    {
+      "name": "Marvin D.",
+      "full_name": "Marvin Doek",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-30",
+      "avatar": "avatars/marvin-doek.jpg",
+      "screenshot": "screenshots/marvin-doek-eerste-sale-c46267.jpg",
+      "quote": "Eerste 10k maand behaald. Op naar meer \ud83d\ude01\ud83d\ude80"
+    },
+    {
+      "name": "Rowan M.",
+      "full_name": "Rowan Meijer",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-10",
+      "avatar": "",
+      "screenshot": "screenshots/rowan-meijer-eerste-sale-5cbdf1.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Qwin V.",
+      "full_name": "Qwin Vries",
+      "achievement": "Eerste Sale",
+      "date": "2025-08-27",
+      "avatar": "avatars/qwin-vries.jpg",
+      "screenshot": "screenshots/qwin-vries-eerste-sale-07bc7b.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Tennis- e.",
+      "full_name": "Tennis- en Padelschool Jan de Jong",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-09",
+      "avatar": "avatars/tennis-en-padelschool-jan-de-jong.jpg",
+      "screenshot": "screenshots/tennis-en-padelschool-jan-de-jong-eerste-sale-c1a138.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Glen C.",
+      "full_name": "Glen Cuyle",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-09",
+      "avatar": "",
+      "screenshot": "screenshots/glen-cuyle-eerste-sale-fc6707.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Marcel D.",
+      "full_name": "Marcel Delhini",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-30",
+      "avatar": "avatars/marcel-delhini.jpg",
+      "screenshot": "screenshots/marcel-delhini-eerste-sale-cb7c62.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Wessel e.",
+      "full_name": "Wessel en Ellen",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-30",
+      "avatar": "",
+      "screenshot": "screenshots/wessel-en-ellen-eerste-sale-b76e38.jpg",
+      "quote": ""
+    },
+    {
+      "name": "R. P.",
+      "full_name": "R. Passieux",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-30",
+      "avatar": "",
+      "screenshot": "screenshots/r-passieux-eerste-sale-677fcb.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Joren B.",
+      "full_name": "Joren Bleize",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-30",
+      "avatar": "",
+      "screenshot": "screenshots/joren-bleize-eerste-sale-161a54.jpg",
+      "quote": "Nu 2 maanden bezig met het 1-op-1 traject met @Tristan . Ik leer enorm veel en ben nog hard bezig met het zoeken naar een winner. Ondank dat, toch bijna de 1K weten te halen in 1 maand. Op naar de..."
+    },
+    {
+      "name": "Sophie v.",
+      "full_name": "Sophie van den Aarssen",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-30",
+      "avatar": "avatars/sophie-van-den-aarssen.jpg",
+      "screenshot": "screenshots/sophie-van-den-aarssen-eerste-sale-8e82bc.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Abbas S.",
+      "full_name": "Abbas Sirat",
+      "achievement": "Eerste Sale",
+      "date": "2025-11-15",
+      "avatar": "avatars/abbas-sirat.jpg",
+      "screenshot": "screenshots/abbas-sirat-eerste-sale-d82fe8.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Jo\u00e3o P.",
+      "full_name": "Jo\u00e3o Pedro",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-04",
+      "avatar": "avatars/jo-o-pedro.jpg",
+      "screenshot": "screenshots/jo-o-pedro-eerste-sale-8e21b4.jpg",
+      "quote": "Op 18 nov begonnen met de traject, met full option erop gegaan.. 18uur per dag knallen samen met een nieuw fulltime baan! Met veel druk op me zelf om zo snel mogelijk weer aan de bak te gaan..."
+    },
+    {
+      "name": "Ruben S.",
+      "full_name": "Ruben Soewarto ",
+      "achievement": "Eerste Sale",
+      "date": "2025-11-19",
+      "avatar": "avatars/ruben-soewarto.jpg",
+      "screenshot": "screenshots/ruben-soewarto-eerste-sale-45f132.jpg",
+      "quote": "Het heeft even geduurd, maar de eerste sale is binnen! De afgelopen maanden heb ik vaak getwijfeld of alle uren die ik er in stopte wel zouden uitbetalen. Ondanks alle twijfels en tegenslagen toch..."
+    },
+    {
+      "name": "Sabina H.",
+      "full_name": "Sabina Hendriksen",
+      "achievement": "Eerste Sale",
+      "date": "2025-11-19",
+      "avatar": "avatars/sabina-hendriksen.jpg",
+      "screenshot": "screenshots/sabina-hendriksen-eerste-sale-c09b4e.jpg",
+      "quote": "YESSSSS!!! 2e ad en een Sale!! Dit is een beloning voor vanaf 0! kennis ,een gezin en full time baan , te weinig uren in 1 dag! Zwoegen, studeren, doorbijten, gedemotiveerd zijn , maar het weer op..."
+    },
+    {
+      "name": "Dymphy v.",
+      "full_name": "Dymphy van Buren",
+      "achievement": "Eerste Sale",
+      "date": "2025-12-27",
+      "avatar": "avatars/dymphy-van-buren.jpg",
+      "screenshot": "screenshots/dymphy-van-buren-eerste-sale-ed2c4f.jpg",
+      "quote": "Jaaaah mijn eerste sale \ud83e\udd73zooo blij!! Leukste kerstcadeau!! En dat zonder ads. Webshop staat een paar dagen live. Fijne kerst nog allemaal \ud83c\udf84in 2026 ga ik knallen \ud83d\udd25"
+    },
+    {
+      "name": "Martijn G.",
+      "full_name": "Martijn Gunther",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-14",
+      "avatar": "avatars/martijn-gunther.jpg",
+      "screenshot": "screenshots/martijn-gunther-eerste-sale-3d855d.jpg",
+      "quote": "Paar weken geleden begonnen en eerste orders zijn binnen. Nu opschalen naar meer orders"
+    },
+    {
+      "name": "Joshua F.",
+      "full_name": "Joshua Flores",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-14",
+      "avatar": "avatars/joshua-flores.jpg",
+      "screenshot": "screenshots/joshua-flores-eerste-sale-cbc7e1.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Rene K.",
+      "full_name": "Rene Koolhof",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-21",
+      "avatar": "avatars/rene-koolhof.jpg",
+      "screenshot": "screenshots/rene-koolhof-eerste-sale-6985bf.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Orion",
+      "full_name": "Orion",
+      "achievement": "Eerste Sale",
+      "date": "2026-02-06",
+      "avatar": "",
+      "screenshot": "screenshots/orion-eerste-sale-c70d3c.jpg",
+      "quote": ""
+    },
+    {
+      "name": "RDC b.",
+      "full_name": "RDC bv ",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-21",
+      "avatar": "",
+      "screenshot": "screenshots/rdc-bv-eerste-sale-444549.jpg",
+      "quote": "dankjewel aan coach teun voor alle hulp !"
+    },
+    {
+      "name": "Josine K.",
+      "full_name": "Josine Kooijman",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-21",
+      "avatar": "",
+      "screenshot": "screenshots/josine-kooijman-eerste-sale-33d399.jpg",
+      "quote": "Wat een journey! Deze zagen we niet aankomen, maar die eerste echt sale is binnen en zorgde toch wel voor een euforie momentje. Alle eer en dank voor mijn @Coach Mick ! Je bent motiverend, blijft..."
+    },
+    {
+      "name": "Johannes E.",
+      "full_name": "Johannes Ergun",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-12",
+      "avatar": "avatars/johannes-ergun.jpg",
+      "screenshot": "screenshots/johannes-ergun-eerste-sale-64bf5d.jpg",
+      "quote": "Dag DSA Members, Al meerdere sales gehad afgelopen maand tijd om nu te knallen geef nooit op."
+    },
+    {
+      "name": "B. M.",
+      "full_name": "B. Moussa",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-12",
+      "avatar": "",
+      "screenshot": "screenshots/b-moussa-eerste-sale-43f1d7.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Jesse H.",
+      "full_name": "Jesse Hartjes",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-12",
+      "avatar": "avatars/jesse-hartjes.jpg",
+      "screenshot": "screenshots/jesse-hartjes-eerste-sale-068cec.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Maurice L.",
+      "full_name": "Maurice Lacunes",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-05",
+      "avatar": "",
+      "screenshot": "",
+      "quote": ""
+    },
+    {
+      "name": "Jeroen B.",
+      "full_name": "Jeroen Bakker",
+      "achievement": "Eerste Sale",
+      "date": "2026-02-02",
+      "avatar": "avatars/jeroen-bakker.jpg",
+      "screenshot": "",
+      "quote": "Super trots \u2013 eerste sale gemaakt! \ud83c\udf89 Sinds kort ben ik begonnen bij DSA en naast twee andere bedrijven heb ik in de avonduren aan mijn shop gewerkt. Vrijwel alles bekeken, de video\u2019s gevolgd en..."
+    },
+    {
+      "name": "Wiresh",
+      "full_name": "Wiresh ",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-02",
+      "avatar": "avatars/wiresh.jpg",
+      "screenshot": "screenshots/wiresh-eerste-sale-0f3a75.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Robin&bryan",
+      "full_name": "Robin&bryan",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-13",
+      "avatar": "avatars/robin-bryan.jpg",
+      "screenshot": "screenshots/robin-bryan-eerste-sale-11e3a4.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Lucy M.",
+      "full_name": "Lucy Munoz",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-16",
+      "avatar": "avatars/lucy-munoz.jpg",
+      "screenshot": "screenshots/lucy-munoz-eerste-sale-7c46ea.jpg",
+      "quote": "Jeetje, wat een journey is dit zeg. En dat bedoel ik in een positieve zin. Ik heb mijzelf echt in onmogelijke manieren leren kennen sinds dat ik gestart ben bij de DSA. Gedreven, leergierig,..."
+    },
+    {
+      "name": "Jimmy v.",
+      "full_name": "Jimmy van Veen",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-02",
+      "avatar": "avatars/jimmy-van-veen.jpg",
+      "screenshot": "screenshots/jimmy-van-veen-eerste-sale-4704ad.jpg",
+      "quote": "Vannacht ging de campagne live en vanmiddag volgde mijn allereerste sale! Na weken bouwen aan het merk, finetunen van de productpagina\u2019s en testen met de juiste tone of voice voelt dit als de..."
+    },
+    {
+      "name": "Rosseneu D.",
+      "full_name": "Rosseneu Dylan",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-02",
+      "avatar": "avatars/rosseneu-dylan.jpg",
+      "screenshot": "screenshots/rosseneu-dylan-eerste-sale-2a5396.jpg",
+      "quote": "Zo zie je maar , met veel stress 1 januari de webshop online gezet. 1 dag later \ud83d\ude36 Let\u2019s go !!! op naar meer !!"
+    },
+    {
+      "name": "Eke e.",
+      "full_name": "Eke en Sabrina",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-06",
+      "avatar": "",
+      "screenshot": "screenshots/eke-en-sabrina-eerste-sale-b9146d.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Yasin",
+      "full_name": "Yasin",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-06",
+      "avatar": "avatars/yasin.jpg",
+      "screenshot": "screenshots/yasin-eerste-sale-6665a1.jpg",
+      "quote": "Ben zo blij na zoveel tegenslagen overuren bij mijn huidige baan, priv\u00e9 problemen, stress etc etc toch gister besloten alles te geven wat ik kon geven en mijn eerste ad online gegooid helaas..."
+    },
+    {
+      "name": "Joshua d.",
+      "full_name": "Joshua de Bruijn",
+      "achievement": "Eerste Sale",
+      "date": "2025-09-08",
+      "avatar": "avatars/joshua-de-bruijn.jpg",
+      "screenshot": "screenshots/joshua-de-bruijn-eerste-sale-47a5a2.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Geert B.",
+      "full_name": "Geert Brockhoff ",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-19",
+      "avatar": "avatars/geert-brockhoff.jpg",
+      "screenshot": "screenshots/geert-brockhoff-eerste-sale-012ddf.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Floor B.",
+      "full_name": "Floor Bogaers & Bo van Bussel",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-19",
+      "avatar": "",
+      "screenshot": "",
+      "quote": ""
+    },
+    {
+      "name": "Athalja S.",
+      "full_name": "Athalja Smith",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-19",
+      "avatar": "avatars/athalja-smith.jpg",
+      "screenshot": "screenshots/athalja-smith-eerste-sale-be7d44.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Wesley d.",
+      "full_name": "Wesley drenth",
+      "achievement": "Eerste Sale",
+      "date": "2025-10-19",
+      "avatar": "avatars/wesley-drenth.jpg",
+      "screenshot": "screenshots/wesley-drenth-eerste-sale-6d8167.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Jiri",
+      "full_name": "Jiri",
+      "achievement": "Eerste Sale",
+      "date": "2025-08-30",
+      "avatar": "",
+      "screenshot": "screenshots/jiri-eerste-sale-23f0a4.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Kevin",
+      "full_name": "Kevin",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-22",
+      "avatar": "avatars/kevin.jpg",
+      "screenshot": "screenshots/circle-kevin-d4dfc5.jpg",
+      "quote": "Mijn eerste twee sales zijn binnen, binnen een dag nadat de advertenties live gingen! Wat ontzettend gaaf! Met dank aan @Coach Mick . Op naar meer \ud83d\udcaa\ud83c\udffe\ud83d\udd25"
+    },
+    {
+      "name": "Francis",
+      "full_name": "Francis",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-22",
+      "avatar": "avatars/francis.jpg",
+      "screenshot": "screenshots/francis-eerste-sale-ae35c5.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Alessio L.",
+      "full_name": "Alessio Latuputty",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-22",
+      "avatar": "",
+      "screenshot": "screenshots/alessio-latuputty-eerste-sale-a4c064.jpg",
+      "quote": "Sinds eergisteren live gegaan en mijn eerste 2 sales zijn een feit! Het was even strijden, en zolang je doorgaat is het niet voorbij. Ook erg dankbaar voor mijn top coach Mick en ben blij dat ik..."
+    },
+    {
+      "name": "JamboDeal",
+      "full_name": "JamboDeal",
+      "achievement": "Eerste Sale",
+      "date": "2026-01-09",
+      "avatar": "avatars/jambodeal.jpg",
+      "screenshot": "screenshots/jambodeal-eerste-sale-29a001.jpg",
+      "quote": ""
+    },
+    {
+      "name": "Daniel A.",
+      "full_name": "Daniel Achterberg",
+      "achievement": "Eerste Sale",
+      "date": "2025-12-28",
+      "avatar": "avatars/daniel-achterberg.jpg",
+      "screenshot": "screenshots/daniel-achterberg-eerste-sale-960b4d.jpg",
+      "quote": "wil even delen hoe dankbaar ik ben voor het berichtje van @Joshua Kaats dat mij heeft aangezet om te beginnen met dropshippen. Sinds ik zes jaar oud ben heb ik grote dromen gehad, maar die heb ik..."
+    },
+    {
+      "name": "Staf F.",
+      "full_name": "Staf Fieuw",
+      "achievement": "Eerste Sale",
+      "date": "2025-12-28",
+      "avatar": "",
+      "screenshot": "screenshots/staf-fieuw-eerste-sale-c2c314.jpg",
+      "quote": "Onze kerst begon goed, eerste dag advertentie online en 2 bestellingen! Op naar nog veel meer! \ud83d\udcaa Dankjewel @Coach Danny voor alle tips en tricks!"
+    }
+  ]
+}

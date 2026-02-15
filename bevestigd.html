@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Je Bent Aangemeld  - Het New Beginning Experiment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Meta Pixel -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1582280222285039');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1582280222285039&ev=PageView&noscript=1"/></noscript>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        .checkmark {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #00e5c8, #00b4d8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            animation: scaleIn 0.5s ease-out;
+        }
+        .checkmark svg {
+            width: 40px;
+            height: 40px;
+            stroke: #0a0a0a;
+            stroke-width: 3;
+            fill: none;
+        }
+        @keyframes scaleIn {
+            0% { transform: scale(0); opacity: 0; }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        h1 span {
+            background: linear-gradient(135deg, #00e5c8, #00b4d8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #a0a0a0;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        .info-card {
+            background: #161616;
+            border: 1px solid #2a2a2a;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        .info-card h3 {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #00e5c8;
+            margin-bottom: 20px;
+        }
+        .info-row {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 0;
+            border-bottom: 1px solid #222;
+        }
+        .info-row:last-child { border-bottom: none; }
+        .info-row .icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: rgba(0, 229, 200, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .info-row .icon svg {
+            width: 20px;
+            height: 20px;
+            stroke: #00e5c8;
+            stroke-width: 2;
+            fill: none;
+        }
+        .info-row .label {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 2px;
+        }
+        .info-row .value {
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .steps {
+            background: #161616;
+            border: 1px solid #2a2a2a;
+            border-radius: 16px;
+            padding: 32px;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .steps h3 {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #00e5c8;
+            margin-bottom: 20px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            margin-bottom: 16px;
+        }
+        .step:last-child { margin-bottom: 0; }
+        .step-num {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: rgba(0, 229, 200, 0.15);
+            color: #00e5c8;
+            font-size: 13px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .step p {
+            font-size: 15px;
+            color: #ccc;
+            line-height: 1.5;
+        }
+        .step p strong { color: #fff; }
+        .footer-text {
+            font-size: 14px;
+            color: #666;
+            margin-top: 20px;
+        }
+        .footer-text a {
+            color: #00e5c8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="checkmark">
+            <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        </div>
+        <h1>Je bent <span>aangemeld!</span></h1>
+        <p class="subtitle">
+            Je registratie voor de Live Training is bevestigd.
+            Check je inbox voor de details en de link om deel te nemen.
+        </p>
+
+        <div class="info-card">
+            <h3>Webinar Details</h3>
+            <div class="info-row">
+                <div class="icon">
+                    <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                </div>
+                <div>
+                    <div class="label">Datum</div>
+                    <div class="value">Donderdag 19 februari 2026</div>
+                </div>
+            </div>
+            <div class="info-row">
+                <div class="icon">
+                    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div>
+                    <div class="label">Tijd</div>
+                    <div class="value">19:00 uur (CET)</div>
+                </div>
+            </div>
+            <div class="info-row">
+                <div class="icon">
+                    <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                <div>
+                    <div class="label">Waar</div>
+                    <div class="value">Online (link volgt per email)</div>
+                </div>
+            </div>
+            <div class="info-row">
+                <div class="icon">
+                    <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </div>
+                <div>
+                    <div class="label">Presentator</div>
+                    <div class="value">Joshua Kaats</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="steps">
+            <h3>Volgende Stappen</h3>
+            <div class="step">
+                <div class="step-num">1</div>
+                <p><strong>Check je inbox</strong>  - Je ontvangt een bevestigingsmail met alle details en de link om deel te nemen.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <p><strong>Zet het in je agenda</strong>  - Donderdag 19 februari om 19:00 uur. Blokkeer de tijd zodat je er live bij kunt zijn.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <p><strong>Kom op tijd</strong>  - De live link ontvang je via email. Zorg dat je 5 minuten voor aanvang klaar zit.</p>
+            </div>
+        </div>
+
+        <p class="footer-text">
+            Vragen? Stuur een mail naar <a href="mailto:info@dropshipacademy.nl">info@dropshipacademy.nl</a>
+        </p>
+    </div>
+</body>
+</html>
