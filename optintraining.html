@@ -2207,13 +2207,7 @@
             btn.disabled = true;
             btn.style.opacity = '0.7';
 
-            // Advanced Matching: stuur user data mee zodat Meta de conversie kan koppelen
-            fbq('init', '1648819232196660', {
-                em: email.toLowerCase(),
-                fn: firstName.toLowerCase(),
-                ln: lastName.toLowerCase(),
-                ph: fullPhone.replace(/[^0-9]/g, '')
-            });
+            // Fire Meta Contact event (pixel already initialized on page load)
             fbq('track', 'Contact', {
                 content_name: 'training-new-beginning',
                 content_category: 'pretty-lander'
