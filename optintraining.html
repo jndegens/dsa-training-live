@@ -2207,12 +2207,6 @@
             btn.disabled = true;
             btn.style.opacity = '0.7';
 
-            // Fire Meta Contact event (pixel already initialized on page load)
-            fbq('track', 'Contact', {
-                content_name: 'training-new-beginning',
-                content_category: 'pretty-lander'
-            });
-
             try {
                 // Send to Zapier Webhook
                 await fetch('https://hooks.zapier.com/hooks/catch/4678145/ue1ytts/', {
