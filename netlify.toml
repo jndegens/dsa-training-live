@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/"
+  to = "/optintraining.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/salespage"
+  to = "/sales.html"
+  status = 200

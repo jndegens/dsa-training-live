@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Je Plek is Bevestigd - Gratis Live Training</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Meta Pixel -->
@@ -18,10 +19,19 @@
     'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1648819232196660');
     fbq('track', 'PageView');
-    fbq('track', 'Lead', { content_name: 'training-new-beginning' });
+    fbq('track', 'Contact', { content_name: 'training-new-beginning' });
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1648819232196660&ev=PageView&noscript=1"/></noscript>
     <!-- End Meta Pixel -->
+    <!-- Hyros Universal Script -->
+    <script>
+    var head = document.head;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = "https://t.dropshipacademy.nl/v1/lst/universal-script?ph=5d9429791e5da1385467a4a900e2e803a8731f47029e56f22aaffa8776435da1&tag=!clicked&ref_url=" + encodeURI(document.URL);
+    head.appendChild(script);
+    </script>
+    <!-- End Hyros Universal Script -->
     <!-- TrustBox script -->
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
     <!-- End TrustBox script -->
@@ -56,15 +66,52 @@
             overflow-x: hidden;
         }
 
-        /* ===== CONFIRM BANNER ===== */
-        .confirm-banner {
-            background: var(--gradient-1);
-            color: var(--bg-primary);
-            text-align: center;
-            padding: 16px 20px;
-            font-size: 15px;
+        /* ===== TOP TIMER BAR ===== */
+        .top-bar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .top-bar-label {
+            font-size: 13px;
             font-weight: 700;
-            line-height: 1.5;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            white-space: nowrap;
+        }
+
+        .top-bar-timer {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .top-bar-unit {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 4px 8px;
+            min-width: 34px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+
+        .top-bar-sep {
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--text-muted);
         }
 
         /* ===== HERO ===== */
@@ -279,56 +326,412 @@
             color: var(--text-primary);
         }
 
-        /* ===== STEPS ===== */
+        /* ===== STEPS (Flashy Cards) ===== */
         .steps-section {
-            padding: 40px 20px;
-            background: var(--bg-secondary);
+            padding: 50px 20px;
         }
 
         .steps-container {
-            max-width: 520px;
+            max-width: 720px;
             margin: 0 auto;
         }
 
-        .steps-title {
-            font-size: 18px;
-            font-weight: 800;
+        .steps-label {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
             text-align: center;
-            margin-bottom: 28px;
+            margin-bottom: 8px;
         }
 
-        .step {
-            display: flex;
+        .steps-title {
+            font-size: clamp(24px, 4vw, 34px);
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 36px;
+            line-height: 1.2;
+        }
+
+        .steps-title .highlight {
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             gap: 16px;
-            align-items: flex-start;
-            margin-bottom: 20px;
+            align-items: stretch;
         }
 
-        .step-number {
-            flex-shrink: 0;
-            width: 36px;
-            height: 36px;
-            background: var(--accent-glow);
-            border: 1px solid rgba(0, 229, 200, 0.3);
-            border-radius: 50%;
+        .step-card {
+            position: relative;
+            border-radius: 18px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 28px 24px;
+            border: 1px solid rgba(255,255,255,0.06);
+            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+            cursor: default;
+        }
+
+        .step-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+            border-color: rgba(0, 229, 200, 0.3);
+        }
+
+        .step-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+        }
+
+        .step-card.card-agenda::before {
+            background: linear-gradient(160deg, #0d1320 0%, #0a2e28 50%, #111827 100%);
+        }
+
+        .step-card.card-email::before {
+            background: linear-gradient(160deg, #0d1320 0%, #0d1a33 50%, #111827 100%);
+        }
+
+        .step-card.card-live::before {
+            background: linear-gradient(160deg, #0d1320 0%, #1a0d2e 50%, #111827 100%);
+        }
+
+        .step-card-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-card-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 14px;
+            font-size: 26px;
+            margin-bottom: 16px;
+        }
+
+        .step-card.card-agenda .step-card-icon {
+            background: rgba(0, 229, 200, 0.12);
+            box-shadow: 0 0 20px rgba(0, 229, 200, 0.15);
+        }
+
+        .step-card.card-email .step-card-icon {
+            background: rgba(56, 189, 248, 0.12);
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.15);
+        }
+
+        .step-card.card-live .step-card-icon {
+            background: rgba(167, 139, 250, 0.12);
+            box-shadow: 0 0 20px rgba(167, 139, 250, 0.15);
+        }
+
+        .step-card-number {
+            position: absolute;
+            top: 20px;
+            right: 22px;
+            font-size: 48px;
+            font-weight: 900;
+            opacity: 0.06;
+            color: #fff;
+            line-height: 1;
+            z-index: 1;
+        }
+
+        .step-card h3 {
+            font-size: 17px;
             font-weight: 800;
-            color: var(--accent);
+            margin-bottom: 6px;
+            color: #fff;
         }
 
-        .step-text h3 {
-            font-size: 15px;
-            font-weight: 700;
-            margin-bottom: 2px;
-        }
-
-        .step-text p {
+        .step-card p {
             font-size: 13px;
             color: var(--text-secondary);
             line-height: 1.5;
+        }
+
+        .step-card .step-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 12px;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .step-card.card-agenda .step-tag {
+            background: rgba(0, 229, 200, 0.1);
+            color: #00e5c8;
+        }
+
+        .step-card.card-email .step-tag {
+            background: rgba(56, 189, 248, 0.1);
+            color: #38bdf8;
+        }
+
+        .step-card.card-live .step-tag {
+            background: rgba(167, 139, 250, 0.1);
+            color: #a78bfa;
+        }
+
+        /* Glow orbs */
+        .step-card::after {
+            content: '';
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            top: -30px;
+            right: -30px;
+            z-index: 0;
+            filter: blur(40px);
+            opacity: 0.3;
+            transition: opacity 0.3s;
+        }
+
+        .step-card:hover::after { opacity: 0.5; }
+
+        .step-card.card-agenda::after { background: #00e5c8; }
+        .step-card.card-email::after { background: #38bdf8; }
+        .step-card.card-live::after { background: #a78bfa; }
+
+        /* Calendar trigger button */
+        .cal-trigger-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 14px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background: rgba(0, 229, 200, 0.12);
+            border: 1px solid rgba(0, 229, 200, 0.3);
+            color: #00e5c8;
+            font-size: 13px;
+            font-weight: 700;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+            z-index: 1;
+        }
+        .cal-trigger-btn:hover {
+            background: rgba(0, 229, 200, 0.22);
+            border-color: rgba(0, 229, 200, 0.5);
+            transform: translateY(-1px);
+        }
+
+        /* Calendar popup overlay */
+        .cal-popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            z-index: 9999;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .cal-popup-overlay.active {
+            display: flex;
+        }
+        .cal-popup {
+            background: #111827;
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 20px;
+            padding: 32px 28px;
+            max-width: 400px;
+            width: 100%;
+            position: relative;
+            animation: calPopIn 0.25s ease;
+        }
+        @keyframes calPopIn {
+            from { opacity: 0; transform: scale(0.95) translateY(10px); }
+            to { opacity: 1; transform: scale(1) translateY(0); }
+        }
+        .cal-popup-close {
+            position: absolute;
+            top: 14px; right: 16px;
+            background: none;
+            border: none;
+            color: #64748b;
+            font-size: 22px;
+            cursor: pointer;
+            line-height: 1;
+            transition: color 0.2s;
+        }
+        .cal-popup-close:hover { color: #fff; }
+        .cal-popup-icon {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        .cal-popup-title {
+            font-size: 20px;
+            font-weight: 800;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 4px;
+        }
+        .cal-popup-date {
+            font-size: 14px;
+            color: #00e5c8;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .cal-popup-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .cal-btn {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 18px;
+            border-radius: 12px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            color: #fff;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: inherit;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        .cal-btn:hover {
+            background: rgba(0, 229, 200, 0.1);
+            border-color: rgba(0, 229, 200, 0.3);
+        }
+        .cal-btn img {
+            width: 28px;
+            height: 28px;
+        }
+
+        @media (max-width: 640px) {
+            .steps-grid { grid-template-columns: 1fr; }
+            .step-card { min-height: 200px; }
+            .cal-buttons { justify-content: center; }
+        }
+
+        /* ===== WHY LIVE ===== */
+        .why-section {
+            padding: 50px 20px;
+            background: var(--bg-secondary);
+        }
+
+        .why-container {
+            max-width: 580px;
+            margin: 0 auto;
+        }
+
+        .why-label {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .why-title {
+            font-size: clamp(22px, 3.5vw, 30px);
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 8px;
+            line-height: 1.2;
+        }
+
+        .why-title .highlight {
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .why-subtitle {
+            font-size: 15px;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+        }
+
+        .why-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 22px 20px;
+            transition: border-color 0.3s, transform 0.2s;
+        }
+
+        .why-card:hover {
+            border-color: rgba(0, 229, 200, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .why-card-icon {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .why-card h3 {
+            font-size: 15px;
+            font-weight: 800;
+            margin-bottom: 6px;
+            color: var(--text-primary);
+        }
+
+        .why-card p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .why-warning {
+            margin-top: 24px;
+            padding: 16px 20px;
+            background: rgba(239, 68, 68, 0.08);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            border-radius: 12px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            color: #f87171;
+        }
+
+        @media (max-width: 480px) {
+            .why-grid { grid-template-columns: 1fr; }
+        }
+
+        /* ===== ACHIEVEMENTS ===== */
+        .achievements-section {
+            padding: 10px 20px 40px;
         }
 
         /* ===== SOCIAL PROOF ===== */
@@ -466,9 +869,18 @@
 </head>
 <body>
 
-    <!-- ===== CONFIRM BANNER ===== -->
-    <div class="confirm-banner">
-        Je plek is bevestigd. Bewaar deze pagina.
+    <!-- ===== TOP TIMER BAR ===== -->
+    <div class="top-bar">
+        <span class="top-bar-label">De training begint over:</span>
+        <div class="top-bar-timer">
+            <span class="top-bar-unit" id="days">0</span>
+            <span class="top-bar-sep">:</span>
+            <span class="top-bar-unit" id="hours">0</span>
+            <span class="top-bar-sep">:</span>
+            <span class="top-bar-unit" id="minutes">0</span>
+            <span class="top-bar-sep">:</span>
+            <span class="top-bar-unit" id="seconds">0</span>
+        </div>
     </div>
 
     <!-- ===== HERO ===== -->
@@ -484,108 +896,12 @@
                 Je Bent <span class="highlight">Aangemeld!</span>
             </h1>
 
-            <p class="hero-sub">
-                Check je inbox voor de bevestigingsmail met je persoonlijke link. Hieronder vind je alle details.
-            </p>
-        </div>
-    </section>
-
-    <!-- ===== TRAINING DETAILS ===== -->
-    <section class="details-section">
-        <div class="details-card animate-in" style="animation-delay: 0.1s;">
-            <div class="details-header">Training Details</div>
-            <div class="detail-row">
-                <span class="detail-label">Training</span>
-                <span class="detail-value">Gratis Live Training</span>
-            </div>
-            <div class="detail-row">
-                <span class="detail-label">Datum</span>
-                <span class="detail-value accent" id="trainingDate">Wordt berekend...</span>
-            </div>
-            <div class="detail-row">
-                <span class="detail-label">Tijd</span>
-                <span class="detail-value">19:00 uur (NL tijd)</span>
-            </div>
-            <div class="detail-row">
-                <span class="detail-label">Presentator</span>
-                <span class="detail-value">Joshua Kaats</span>
-            </div>
-            <div class="detail-row">
-                <span class="detail-label">Kosten</span>
-                <span class="detail-value accent">Gratis</span>
-            </div>
-            <div class="detail-row">
-                <span class="detail-label">Link</span>
-                <span class="detail-value">Check je inbox</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== COUNTDOWN ===== -->
-    <section class="countdown-section">
-        <div class="countdown-label">De training begint over:</div>
-        <div class="countdown" id="countdown">
-            <div class="countdown-item">
-                <div class="number" id="days">0</div>
-                <div class="label">Dagen</div>
-            </div>
-            <div class="countdown-item">
-                <div class="number" id="hours">0</div>
-                <div class="label">Uren</div>
-            </div>
-            <div class="countdown-item">
-                <div class="number" id="minutes">0</div>
-                <div class="label">Min</div>
-            </div>
-            <div class="countdown-item">
-                <div class="number" id="seconds">0</div>
-                <div class="label">Sec</div>
-            </div>
-        </div>
-        <p class="countdown-date" id="countdownDate"></p>
-    </section>
-
-    <!-- ===== STEPS ===== -->
-    <section class="steps-section">
-        <div class="steps-container">
-            <h2 class="steps-title">Zorg dat je er live bij bent:</h2>
-
-            <div class="step">
-                <div class="step-number">1</div>
-                <div class="step-text">
-                    <h3>Zet het in je agenda</h3>
-                    <p>Blokkeer de datum en tijd zodat je er zeker bij kunt zijn. Stel een alarm in op je telefoon.</p>
-                </div>
-            </div>
-
-            <div class="step">
-                <div class="step-number">2</div>
-                <div class="step-text">
-                    <h3>Check je email</h3>
-                    <p>Je ontvangt een bevestiging met je persoonlijke link. Bewaar deze mail.</p>
-                </div>
-            </div>
-
-            <div class="step">
-                <div class="step-number">3</div>
-                <div class="step-text">
-                    <h3>Wees er op tijd</h3>
-                    <p>We beginnen stipt en wachten op niemand. Log 5 minuten van tevoren in en zorg dat je geluid werkt.</p>
-                </div>
-            </div>
-
-            <div class="step">
-                <div class="step-number">4</div>
-                <div class="step-text">
-                    <h3>Wees er live bij</h3>
-                    <p>Mensen die er live bij zijn krijgen als eerste toegang tot iets speciaals. Dit wil je niet missen.</p>
-                </div>
-            </div>
+            <p class="hero-sub" id="countdownDate"></p>
         </div>
     </section>
 
     <!-- ===== SOCIAL PROOF ===== -->
-    <section class="proof-section">
+    <section class="proof-section" style="padding: 0 20px 30px;">
         <div class="proof-container">
             <div class="proof-avatars">
                 <div class="proof-avatar"><img src="/avatars/daphne-van-estrik.jpg" alt="Daphne"></div>
@@ -601,7 +917,7 @@
     </section>
 
     <!-- ===== TRUSTPILOT ===== -->
-    <div class="tp-inline">
+    <div class="tp-inline" style="padding-top: 0;">
         <span class="tp-inline-logo">Trustpilot</span>
         <div class="tp-inline-stars">
             <div class="tp-inline-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
@@ -612,6 +928,113 @@
         </div>
         <span class="tp-inline-text"><strong>1.000+</strong> Reviews</span>
     </div>
+
+    <!-- ===== STEPS ===== -->
+    <section class="steps-section">
+        <div class="steps-container">
+            <div class="steps-label">3 simpele stappen</div>
+            <h2 class="steps-title">Dit Moet Je <span class="highlight">Nu Doen</span></h2>
+
+            <div class="steps-grid">
+                <div class="step-card card-email">
+                    <span class="step-card-number">1</span>
+                    <div class="step-card-content">
+                        <div class="step-card-icon">&#9993;&#65039;</div>
+                        <h3>Open Je Email</h3>
+                        <p>Je hebt een bevestigingsmail ontvangen met je persoonlijke link. Check ook je spam folder.</p>
+                        <span class="step-tag">&#128172; Bewaar je link</span>
+                    </div>
+                </div>
+
+                <div class="step-card card-agenda">
+                    <span class="step-card-number">2</span>
+                    <div class="step-card-content">
+                        <div class="step-card-icon">&#128197;</div>
+                        <h3>Zet Het In Je Agenda</h3>
+                        <p>Voeg de training toe aan je kalender zodat je er zeker bij bent.</p>
+                        <button class="cal-trigger-btn" id="cal-trigger">Voeg toe aan agenda</button>
+                    </div>
+                </div>
+
+                <div class="step-card card-live">
+                    <span class="step-card-number">3</span>
+                    <div class="step-card-content">
+                        <div class="step-card-icon">&#127909;</div>
+                        <h3>Wees Er Live Bij</h3>
+                        <p>Alleen live kijkers maken kans op een van de 5 plekken. We beginnen stipt en wachten op niemand.</p>
+                        <span class="step-tag">&#128308; Slechts 5 plekken</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ACHIEVEMENTS SLIDER ===== -->
+    <div id="achievements-slider"></div>
+    <script>
+    window.ACHIEVEMENTS_SLIDER_CONFIG = {
+        jsonUrl: '/achievements.json',
+        title: 'Resultaten Van Onze {Studenten}',
+        cardsPerRow: 8,
+        speed: 30
+    };
+    </script>
+    <script src="/achievements-slider.js"></script>
+
+    <!-- ===== WHY LIVE ===== -->
+    <section class="why-section">
+        <div class="why-container">
+            <div class="why-label">Waarom je er moet zijn</div>
+            <h2 class="why-title">Dit Onthul Ik Tijdens<br><span class="highlight">De Live Training</span></h2>
+            <p class="why-subtitle">Dit is niet zomaar een training. Dit is je kans om alles te leren over mijn nieuwe model.</p>
+
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-card-icon">&#9881;&#65039;</div>
+                    <h3>Ik bouw LIVE een webshop</h3>
+                    <p>Je kijkt mee hoe ik in een paar minuten een complete e-commerce shop opzet. Van nul tot klaar.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-icon">&#128176;</div>
+                    <h3>Het nieuwe DFY model</h3>
+                    <p>Na 8 jaar stop ik met cursussen. Ik onthul wat ik nu doe en waarom dit beter werkt.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-icon">&#127775;</div>
+                    <h3>Exclusief voor live kijkers</h3>
+                    <p>Wie er live bij is krijgt als eerste toegang tot iets speciaals. Dit aanbod komt niet terug.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-icon">&#10067;</div>
+                    <h3>Live Q&amp;A met Joshua</h3>
+                    <p>Stel je vragen direct en krijg persoonlijk advies. Dit kan alleen als je er live bij bent.</p>
+                </div>
+            </div>
+
+            <div class="why-warning">
+                Deze training wordt NIET opgenomen. Er komt geen herhaling. Mis het niet.
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TRAINING DETAILS ===== -->
+    <section class="details-section" style="padding: 40px 20px;">
+        <div class="details-card animate-in">
+            <div class="details-header">Training Details</div>
+            <div class="detail-row">
+                <span class="detail-label">Datum</span>
+                <span class="detail-value accent" id="trainingDate">Wordt berekend...</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Tijd</span>
+                <span class="detail-value">19:00 uur (NL tijd)</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Kosten</span>
+                <span class="detail-value accent">Gratis</span>
+            </div>
+        </div>
+    </section>
 
     <!-- ===== FOOTER ===== -->
     <footer class="footer">
@@ -660,20 +1083,21 @@
         var dateEl = document.getElementById('trainingDate');
         var dagen = ['Zondag', 'Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag'];
         var maanden = ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
-        dateEl.textContent = dagen[trainingTarget.getDay()] + ' ' + trainingTarget.getDate() + ' ' + maanden[trainingTarget.getMonth()] + ' ' + trainingTarget.getFullYear();
+        if (dateEl) dateEl.textContent = dagen[trainingTarget.getDay()] + ' ' + trainingTarget.getDate() + ' ' + maanden[trainingTarget.getMonth()] + ' ' + trainingTarget.getFullYear();
 
-        // Toon datum onder countdown
-        document.getElementById('countdownDate').innerHTML = formatDutchDate(trainingTarget);
+        // Toon datum onder hero
+        var cdEl = document.getElementById('countdownDate');
+        if (cdEl) cdEl.innerHTML = formatDutchDate(trainingTarget);
+
+        function pad(n) { return n < 10 ? '0' + n : n; }
 
         function updateCountdown() {
             var now = new Date().getTime();
             var diff = trainingTarget.getTime() - now;
 
             if (diff <= 0) {
-                document.getElementById('days').textContent = '0';
-                document.getElementById('hours').textContent = '0';
-                document.getElementById('minutes').textContent = '0';
-                document.getElementById('seconds').textContent = '0';
+                trainingTarget = getNextTrainingDate();
+                location.reload();
                 return;
             }
 
@@ -682,14 +1106,156 @@
             var m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
             var s = Math.floor((diff % (1000 * 60)) / 1000);
 
-            document.getElementById('days').textContent = d;
-            document.getElementById('hours').textContent = h;
-            document.getElementById('minutes').textContent = m;
-            document.getElementById('seconds').textContent = s;
+            document.getElementById('days').textContent = pad(d);
+            document.getElementById('hours').textContent = pad(h);
+            document.getElementById('minutes').textContent = pad(m);
+            document.getElementById('seconds').textContent = pad(s);
         }
 
         updateCountdown();
         setInterval(updateCountdown, 1000);
+    </script>
+
+    <!-- ===== CALENDAR POPUP ===== -->
+    <div class="cal-popup-overlay" id="cal-popup-overlay">
+        <div class="cal-popup">
+            <button class="cal-popup-close" id="cal-popup-close">&times;</button>
+            <div class="cal-popup-icon">&#128197;</div>
+            <div class="cal-popup-title">Voeg toe aan je agenda</div>
+            <div class="cal-popup-date" id="cal-popup-date"></div>
+            <div class="cal-popup-buttons" id="cal-popup-buttons"></div>
+        </div>
+    </div>
+
+    <script>
+    (function() {
+        // Bereken eerstvolgende donderdag 19:00 NL-tijd
+        function getNextThursday() {
+            var now = new Date();
+            var nlStr = now.toLocaleString('en-US', { timeZone: 'Europe/Amsterdam' });
+            var nlNow = new Date(nlStr);
+
+            var target = new Date(nlNow);
+            target.setHours(19, 0, 0, 0);
+            var day = target.getDay();
+            var daysUntil = (4 - day + 7) % 7;
+            if (daysUntil === 0 && nlNow.getHours() >= 19) daysUntil = 7;
+            target.setDate(target.getDate() + daysUntil);
+
+            var year = target.getFullYear();
+            var month = target.getMonth();
+            var date = target.getDate();
+
+            var tempDate = new Date(Date.UTC(year, month, date, 12, 0, 0));
+            var nlCheck = new Date(tempDate.toLocaleString('en-US', { timeZone: 'Europe/Amsterdam' }));
+            var utcCheck = new Date(tempDate.toLocaleString('en-US', { timeZone: 'UTC' }));
+            var offsetMs = nlCheck.getTime() - utcCheck.getTime();
+
+            var startUTC = new Date(Date.UTC(year, month, date, 19, 0, 0) - offsetMs);
+            var endUTC = new Date(startUTC.getTime() + 90 * 60 * 1000);
+
+            return { start: startUTC, end: endUTC, nlDate: new Date(year, month, date, 19, 0, 0) };
+        }
+
+        function pad2(n) { return n < 10 ? '0' + n : '' + n; }
+
+        function toCalDate(d) {
+            return d.getUTCFullYear() + pad2(d.getUTCMonth() + 1) + pad2(d.getUTCDate()) + 'T' +
+                pad2(d.getUTCHours()) + pad2(d.getUTCMinutes()) + pad2(d.getUTCSeconds()) + 'Z';
+        }
+
+        var event = getNextThursday();
+        var title = '\uD83D\uDD34 LIVE: New Beginning | DFY Mentorship';
+        var desc = 'In deze exclusieve live sessie ontdek je:\n\n\u2705 Hoe ik een winstgevende webshop voor je bouw\n\u2705 Het exacte plan om naar \u20AC50k+/maand te groeien\n\u2705 Hoe jij mijn businesspartner kunt worden in 2026\n\u2705 De strategie achter webshops die voor miljoenen verkocht kunnen worden\n\n\u26A0\uFE0F Er is geen opname. Dit wordt alleen LIVE gedeeld!\n\n\uD83D\uDCCD Je persoonlijke trainingslink vind je in je e-mail.';
+        var location = 'Online (link volgt via email)';
+
+        // Datum label in popup
+        var dagen = ['zondag','maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag'];
+        var maanden = ['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'];
+        var nl = event.nlDate;
+        var dateStr = dagen[nl.getDay()] + ' ' + nl.getDate() + ' ' + maanden[nl.getMonth()] + ' om 19:00';
+
+        var dateEl = document.getElementById('cal-popup-date');
+        if (dateEl) dateEl.textContent = dateStr;
+
+        // Calendar URLs
+        // Google Calendar: gebruik lokale tijd + ctz parameter (voorkomt UTC offset bugs)
+        var nlEnd = new Date(nl.getTime() + 90 * 60 * 1000);
+        function toLocalCalDate(d) {
+            return d.getFullYear() + pad2(d.getMonth() + 1) + pad2(d.getDate()) + 'T' +
+                pad2(d.getHours()) + pad2(d.getMinutes()) + pad2(d.getSeconds());
+        }
+        var googleUrl = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
+            + '&text=' + encodeURIComponent(title)
+            + '&dates=' + toLocalCalDate(nl) + '/' + toLocalCalDate(nlEnd)
+            + '&ctz=Europe/Amsterdam'
+            + '&details=' + encodeURIComponent(desc)
+            + '&location=' + encodeURIComponent(location);
+
+        var outlookUrl = 'https://outlook.live.com/calendar/0/action/compose?allday=false'
+            + '&subject=' + encodeURIComponent(title)
+            + '&startdt=' + event.start.toISOString()
+            + '&enddt=' + event.end.toISOString()
+            + '&body=' + encodeURIComponent(desc)
+            + '&location=' + encodeURIComponent(location);
+
+        var yahooUrl = 'https://calendar.yahoo.com/?v=60'
+            + '&title=' + encodeURIComponent(title)
+            + '&st=' + toCalDate(event.start)
+            + '&et=' + toCalDate(event.end)
+            + '&desc=' + encodeURIComponent(desc)
+            + '&in_loc=' + encodeURIComponent(location);
+
+        var icsContent = [
+            'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//DSA//Training//NL','BEGIN:VEVENT',
+            'DTSTART:' + toCalDate(event.start),'DTEND:' + toCalDate(event.end),
+            'SUMMARY:' + title,'DESCRIPTION:' + desc.replace(/\n/g, '\\n'),'LOCATION:' + location,
+            'BEGIN:VALARM','TRIGGER:-PT5M','ACTION:DISPLAY','DESCRIPTION:Training begint over 5 minuten!','END:VALARM',
+            'END:VEVENT','END:VCALENDAR'
+        ].join('\r\n');
+        var icsBlob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+        var icsUrl = URL.createObjectURL(icsBlob);
+
+        // Render knoppen in popup
+        var container = document.getElementById('cal-popup-buttons');
+        if (!container) return;
+
+        var buttons = [
+            { label: 'Google Calendar', url: googleUrl, icon: 'https://cdn.addevent.com/libs/imgs/icon-emd-share-google-t1.png' },
+            { label: 'Apple Calendar', url: icsUrl, icon: 'https://cdn.addevent.com/libs/imgs/icon-emd-share-apple-t1.png', download: 'training-dsa.ics' },
+            { label: 'Outlook', url: outlookUrl, icon: 'https://cdn.addevent.com/libs/imgs/icon-emd-share-outlook-t1.png' },
+            { label: 'Yahoo Calendar', url: yahooUrl, icon: 'https://cdn.addevent.com/libs/imgs/icon-emd-share-yahoo-t1.png' },
+        ];
+
+        var html = '';
+        buttons.forEach(function(b) {
+            html += '<a class="cal-btn" href="' + b.url + '" target="_blank" rel="noopener"';
+            if (b.download) html += ' download="' + b.download + '"';
+            html += '><img src="' + b.icon + '" alt="' + b.label + '">' + b.label + '</a>';
+        });
+        container.innerHTML = html;
+
+        // Open/close popup
+        var overlay = document.getElementById('cal-popup-overlay');
+        var trigger = document.getElementById('cal-trigger');
+        var closeBtn = document.getElementById('cal-popup-close');
+
+        if (trigger) {
+            trigger.addEventListener('click', function() {
+                overlay.classList.add('active');
+            });
+        }
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function() {
+                overlay.classList.remove('active');
+            });
+        }
+        if (overlay) {
+            overlay.addEventListener('click', function(e) {
+                if (e.target === overlay) overlay.classList.remove('active');
+            });
+        }
+    })();
     </script>
 
 </body>

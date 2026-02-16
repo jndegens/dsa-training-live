@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gratis Live Training  - Joshua Kaats | DropShip Academy</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- TrustBox script -->
@@ -24,6 +25,15 @@
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1648819232196660&ev=PageView&noscript=1"/></noscript>
     <!-- End Meta Pixel -->
+    <!-- Hyros Universal Script -->
+    <script>
+    var head = document.head;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = "https://t.dropshipacademy.nl/v1/lst/universal-script?ph=5d9429791e5da1385467a4a900e2e803a8731f47029e56f22aaffa8776435da1&tag=!clicked&ref_url=" + encodeURI(document.URL);
+    head.appendChild(script);
+    </script>
+    <!-- End Hyros Universal Script -->
     <style>
         *, *::before, *::after {
             margin: 0;
@@ -84,18 +94,184 @@
             max-width: 900px;
             margin: 0 auto;
             position: relative;
+            background: linear-gradient(135deg, #0a1628 0%, #0d1f2d 40%, #111827 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.06);
         }
 
-        .banner-img {
+        .banner-inner {
+            display: flex;
+            align-items: stretch;
+            min-height: 340px;
+        }
+
+        .banner-content {
+            flex: 1;
+            padding: 36px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .banner-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(0, 229, 200, 0.1);
+            border: 1px solid rgba(0, 229, 200, 0.2);
+            border-radius: 20px;
+            padding: 5px 14px;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: fit-content;
+            margin-bottom: 18px;
+        }
+
+        .banner-tag-dot {
+            width: 6px;
+            height: 6px;
+            background: #ef4444;
+            border-radius: 50%;
+            animation: bannerPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes bannerPulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        .banner-h1 {
+            font-size: clamp(26px, 3.5vw, 38px);
+            font-weight: 900;
+            line-height: 1.15;
+            color: #fff;
+            margin-bottom: 6px;
+        }
+
+        .banner-h1-accent {
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .banner-desc {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-top: 14px;
+            max-width: 420px;
+        }
+
+        .banner-checks {
+            list-style: none;
+            margin-top: 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .banner-checks li {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #e2e8f0;
+        }
+
+        .banner-checks li .check-icon {
+            color: var(--accent);
+            font-size: 15px;
+            flex-shrink: 0;
+        }
+
+        .banner-stats {
+            display: flex;
+            gap: 24px;
+            margin-top: 22px;
+            padding-top: 18px;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .banner-stat-num {
+            font-size: 20px;
+            font-weight: 900;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .banner-stat-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+
+        .banner-photo {
+            width: 320px;
+            flex-shrink: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .banner-photo img {
             width: 100%;
-            height: auto;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
             display: block;
-            -webkit-mask-image: linear-gradient(to bottom, black 0%, black 95%, transparent 100%),
-                                linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%);
-            -webkit-mask-composite: destination-in;
-            mask-image: linear-gradient(to bottom, black 0%, black 95%, transparent 100%),
-                        linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%);
-            mask-composite: intersect;
+        }
+
+        .banner-photo::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, #0a1628 0%, transparent 30%);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        @media (max-width: 700px) {
+            .banner-inner {
+                flex-direction: column-reverse;
+                min-height: auto;
+            }
+            .banner-content {
+                padding: 28px 24px;
+            }
+            .banner-photo {
+                width: 100%;
+                height: 160px;
+            }
+            .banner-photo img {
+                object-position: center 30%;
+            }
+            .banner-photo::before {
+                background: linear-gradient(to top, #0a1628 0%, transparent 40%);
+            }
+            .banner-h1 {
+                font-size: 26px;
+            }
+            .banner-desc {
+                font-size: 13px;
+            }
+            .banner-stats {
+                gap: 20px;
+            }
+            .banner-stat-num {
+                font-size: 18px;
+            }
         }
 
         /* ===== HERO SECTION ===== */
@@ -324,34 +500,77 @@
         }
 
         .countdown-bar-close {
-            background: none;
-            border: none;
-            color: var(--text-muted);
-            cursor: pointer;
-            padding: 4px;
-            font-size: 18px;
-            line-height: 1;
-            transition: color 0.2s;
-        }
-
-        .countdown-bar-close:hover {
-            color: var(--text-primary);
+            display: none;
         }
 
         .countdown-bar-date {
             display: none;
         }
 
+        /* ===== STICKY MOBILE CTA ===== */
+        .sticky-mobile-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1001;
+            background: rgba(8, 12, 20, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-top: 1px solid var(--border);
+            padding: 12px 16px;
+            padding-bottom: max(12px, env(safe-area-inset-bottom));
+        }
+
+        .sticky-mobile-cta a {
+            display: block;
+            width: 100%;
+            background: var(--gradient-1);
+            border: none;
+            border-radius: 10px;
+            padding: 14px 20px;
+            font-size: 15px;
+            font-weight: 800;
+            color: var(--bg-primary);
+            font-family: inherit;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 229, 200, 0.3);
+        }
+
         @media (max-width: 600px) {
             .countdown-bar {
-                gap: 8px;
-                padding: 8px 12px;
+                gap: 10px;
+                padding: 10px 16px;
+                justify-content: center;
+            }
+            .countdown-bar-label {
+                font-size: 12px;
+                font-weight: 800;
+                letter-spacing: 0.5px;
+            }
+            .countdown-bar-item .number {
+                font-size: 15px;
+                padding: 4px 7px;
+                min-width: 32px;
+            }
+            .countdown-bar-item .label {
+                font-size: 10px;
             }
             .countdown-bar-cta {
                 display: none;
             }
-            .countdown-bar-item .label {
-                display: none;
+            .banner-section {
+                padding: 16px 12px 0;
+            }
+            .sticky-mobile-cta.visible {
+                display: block;
+            }
+            .sticky-tp-bar {
+                bottom: 60px;
             }
         }
 
@@ -1439,6 +1658,11 @@
                 grid-template-columns: 1fr;
             }
 
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+
             .optin-box {
                 padding: 30px 24px;
             }
@@ -1500,7 +1724,31 @@
     <!-- ===== BANNER ===== -->
     <section class="banner-section">
         <div class="banner-container">
-            <img src="banner-webinar-660x440.png" alt="Ik bouw jouw webshop, jij houdt de winst" class="banner-img">
+            <div class="banner-inner">
+                <div class="banner-content">
+                    <div class="banner-tag"><span class="banner-tag-dot"></span> Gratis live training - beperkte plekken</div>
+                    <h1 class="banner-h1">Ik bouw jouw webshop<br><span class="banner-h1-accent">Jij houdt de winst</span></h1>
+                    <p class="banner-desc">Ik onthul hoe ik een complete e-commerce business voor je opzet en je begeleid naar meer dan 50K per maand aan sales.</p>
+                    <ul class="banner-checks">
+                        <li><span class="check-icon">&#10003;</span> Ik bouw jouw webshop</li>
+                        <li><span class="check-icon">&#10003;</span> Ik begeleid je naar je eerste sales</li>
+                        <li><span class="check-icon">&#10003;</span> Jij houdt de inkomsten</li>
+                    </ul>
+                    <div class="banner-stats">
+                        <div>
+                            <div class="banner-stat-num">8.000+</div>
+                            <div class="banner-stat-label">Mensen geholpen</div>
+                        </div>
+                        <div>
+                            <div class="banner-stat-num">&#8364;100M+</div>
+                            <div class="banner-stat-label">Online sales</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-photo">
+                    <img src="joshua-kaats.jpg" alt="Joshua Kaats" loading="eager">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -1508,12 +1756,18 @@
     <section class="optin-section" id="aanmelden">
         <div class="optin-box">
             <h2>Claim Jouw Gratis Plek</h2>
-            <p class="subtitle">Vul je voornaam en email in en ontvang direct je persoonlijke link</p>
+            <p class="subtitle">Vul je gegevens in en ontvang direct je persoonlijke link</p>
 
             <form id="registrationForm">
-                <div class="form-group">
-                    <label for="firstName">Voornaam</label>
-                    <input type="text" id="firstName" name="firstName" placeholder="Je voornaam" required>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">Voornaam</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Je voornaam" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Achternaam</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Je achternaam" required>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="email">E-mailadres</label>
@@ -1529,22 +1783,22 @@
                         <label>Telefoonnummer</label>
                         <div class="phone-group">
                             <select id="phoneCountry" name="phoneCountry">
-                                <option value="+31">+31 NL</option>
-                                <option value="+32">+32 BE</option>
-                                <option value="+49">+49 DE</option>
-                                <option value="+33">+33 FR</option>
-                                <option value="+44">+44 UK</option>
-                                <option value="+1">+1 US</option>
-                                <option value="+34">+34 ES</option>
-                                <option value="+39">+39 IT</option>
-                                <option value="+41">+41 CH</option>
-                                <option value="+43">+43 AT</option>
-                                <option value="+352">+352 LU</option>
-                                <option value="+27">+27 ZA</option>
-                                <option value="+599">+599 CW</option>
-                                <option value="+297">+297 AW</option>
-                                <option value="+212">+212 MA</option>
-                                <option value="+90">+90 TR</option>
+                                <option value="+31">🇳🇱 +31</option>
+                                <option value="+32">🇧🇪 +32</option>
+                                <option value="+49">🇩🇪 +49</option>
+                                <option value="+33">🇫🇷 +33</option>
+                                <option value="+44">🇬🇧 +44</option>
+                                <option value="+1">🇺🇸 +1</option>
+                                <option value="+34">🇪🇸 +34</option>
+                                <option value="+39">🇮🇹 +39</option>
+                                <option value="+41">🇨🇭 +41</option>
+                                <option value="+43">🇦🇹 +43</option>
+                                <option value="+352">🇱🇺 +352</option>
+                                <option value="+27">🇿🇦 +27</option>
+                                <option value="+599">🇨🇼 +599</option>
+                                <option value="+297">🇦🇼 +297</option>
+                                <option value="+212">🇲🇦 +212</option>
+                                <option value="+90">🇹🇷 +90</option>
                             </select>
                             <input type="tel" id="phone" name="phone" placeholder="6 12345678">
                         </div>
@@ -1828,6 +2082,38 @@
             document.getElementById('phoneWrapper').classList.toggle('show', this.checked);
         });
 
+        // Phone auto-format: strip country code if user types it in the number field
+        (function() {
+            var phoneInput = document.getElementById('phone');
+            var phoneSelect = document.getElementById('phoneCountry');
+            var codes = ['+599','+352','+297','+212','+49','+44','+43','+41','+39','+34','+33','+32','+31','+27','+90','+1'];
+
+            phoneInput.addEventListener('input', function() {
+                var val = this.value.replace(/^\s+/, '');
+
+                if (val.charAt(0) === '+') {
+                    for (var i = 0; i < codes.length; i++) {
+                        if (val.indexOf(codes[i]) === 0) {
+                            phoneSelect.value = codes[i];
+                            this.value = val.substring(codes[i].length).replace(/^[\s\-]+/, '');
+                            return;
+                        }
+                    }
+                }
+
+                if (val.indexOf('00') === 0 && val.length > 4) {
+                    for (var i = 0; i < codes.length; i++) {
+                        var digits = codes[i].substring(1);
+                        if (val.indexOf('00' + digits) === 0) {
+                            phoneSelect.value = codes[i];
+                            this.value = val.substring(2 + digits.length).replace(/^[\s\-]+/, '');
+                            return;
+                        }
+                    }
+                }
+            });
+        })();
+
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -1838,6 +2124,14 @@
             });
         });
 
+        // Extract UTM params + fbclid from URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var utmData = {};
+        ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','fbclid'].forEach(function(key) {
+            var val = urlParams.get(key);
+            if (val) utmData[key] = val;
+        });
+
         // Form submission → Zapier Webhook
         document.getElementById('registrationForm').addEventListener('submit', async function(e) {
             e.preventDefault();
@@ -1846,13 +2140,14 @@
 
             // Get form data
             const firstName = document.getElementById('firstName').value.trim();
+            const lastName = document.getElementById('lastName').value.trim();
             const email = document.getElementById('email').value.trim();
             const phoneCountry = document.getElementById('phoneCountry').value;
             const phoneNumber = document.getElementById('phone').value.trim();
             const fullPhone = phoneNumber ? phoneCountry + phoneNumber : '';
 
             // Basic validation
-            if (!firstName || !email) {
+            if (!firstName || !lastName || !email) {
                 btn.textContent = 'Vul alle verplichte velden in';
                 btn.style.background = '#ef4444';
                 setTimeout(() => {
@@ -1875,33 +2170,33 @@
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({
+                    body: JSON.stringify(Object.assign({
                         first_name: firstName,
+                        last_name: lastName,
                         email: email,
                         phone: fullPhone,
                         phone_country_code: phoneCountry,
                         vip: document.getElementById('vipCheck').checked,
                         registered_at: new Date().toISOString(),
-                        source: 'optintraining',
-                        training: 'new-beginning-dfy-mentorship'
-                    })
+                        source: 'pretty-lander',
+                        training: 'new-beginning-dfy-mentorship',
+                        page_url: window.location.href
+                    }, utmData))
                 });
-
-                // Success state
-                btn.textContent = '✓ Je bent aangemeld!';
-                btn.style.background = '#059669';
-                btn.style.opacity = '1';
-
-                // Redirect to thank you page
-                setTimeout(() => { window.location.href = '/thankyou.html'; }, 1500);
-
             } catch (error) {
-                // Even with no-cors, the request is sent. Show success.
-                btn.textContent = '✓ Je bent aangemeld!';
-                btn.style.background = '#059669';
-                btn.style.opacity = '1';
-                setTimeout(() => { window.location.href = '/thankyou.html'; }, 1500);
+                console.log('[WEBHOOK] Error (request still sent):', error);
             }
+
+            // Success state
+            btn.textContent = '✓ Je bent aangemeld!';
+            btn.style.background = '#059669';
+            btn.style.opacity = '1';
+
+            // Redirect to thank you page (pass fbclid for cross-session attribution)
+            var redirectUrl = '/thankyou.html';
+            var fbclidParam = urlParams.get('fbclid');
+            if (fbclidParam) redirectUrl += '?fbclid=' + encodeURIComponent(fbclidParam);
+            setTimeout(() => { window.location.href = redirectUrl; }, 1500);
         });
     </script>
 
@@ -1933,6 +2228,31 @@
         }
         window.addEventListener('scroll', check, { passive: true });
         check();
+    })();
+    </script>
+
+    <!-- ===== STICKY MOBILE CTA ===== -->
+    <div class="sticky-mobile-cta">
+        <a href="#aanmelden" onclick="event.preventDefault(); document.getElementById('aanmelden').scrollIntoView({behavior:'smooth'});">Claim Je Gratis Plek >></a>
+    </div>
+
+    <script>
+    (function() {
+        var stickyCta = document.querySelector('.sticky-mobile-cta');
+        var submitBtn = document.querySelector('.submit-btn');
+        if (!stickyCta || !submitBtn) return;
+
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    stickyCta.classList.remove('visible');
+                } else {
+                    stickyCta.classList.add('visible');
+                }
+            });
+        }, { threshold: 0 });
+
+        observer.observe(submitBtn);
     })();
     </script>
 

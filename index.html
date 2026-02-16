@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gratis Live Training  - Joshua Kaats | DropShip Academy</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- TrustBox script -->
@@ -24,6 +25,15 @@
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1648819232196660&ev=PageView&noscript=1"/></noscript>
     <!-- End Meta Pixel -->
+    <!-- Hyros Universal Script -->
+    <script>
+    var head = document.head;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = "https://t.dropshipacademy.nl/v1/lst/universal-script?ph=5d9429791e5da1385467a4a900e2e803a8731f47029e56f22aaffa8776435da1&tag=!clicked&ref_url=" + encodeURI(document.URL);
+    head.appendChild(script);
+    </script>
+    <!-- End Hyros Universal Script -->
     <style>
         *, *::before, *::after {
             margin: 0;
@@ -1713,6 +1723,14 @@
             });
         });
 
+        // Extract UTM params + fbclid from URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var utmData = {};
+        ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','fbclid'].forEach(function(key) {
+            var val = urlParams.get(key);
+            if (val) utmData[key] = val;
+        });
+
         // Form submission → Zapier Webhook
         document.getElementById('registrationForm').addEventListener('submit', async function(e) {
             e.preventDefault();
@@ -1742,6 +1760,21 @@
             btn.disabled = true;
             btn.style.opacity = '0.7';
 
+            // Advanced Matching: stuur user data mee zodat Meta de conversie kan koppelen
+            fbq('init', '1648819232196660', {
+                em: email.toLowerCase(),
+                fn: firstName.toLowerCase(),
+                ph: fullPhone.replace(/[^0-9]/g, '')
+            });
+
+            // Fire Meta Contact event EERST (voor de fetch)
+            console.log('[META PIXEL] Firing Contact event with:', email, firstName, fullPhone);
+            fbq('track', 'Contact', {
+                content_name: 'training-new-beginning',
+                content_category: 'pretty-lander'
+            });
+            console.log('[META PIXEL] Contact event fired');
+
             try {
                 // Send to Zapier Webhook
                 await fetch('https://hooks.zapier.com/hooks/catch/4678145/ue1ytts/', {
@@ -1750,33 +1783,29 @@
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({
+                    body: JSON.stringify(Object.assign({
                         first_name: firstName,
                         email: email,
                         phone: fullPhone,
                         phone_country_code: phoneCountry,
                         vip: document.getElementById('vipCheck').checked,
                         registered_at: new Date().toISOString(),
-                        source: 'long-optin',
-                        training: 'new-beginning-dfy-mentorship'
-                    })
+                        source: 'pretty-lander',
+                        training: 'new-beginning-dfy-mentorship',
+                        page_url: window.location.href
+                    }, utmData))
                 });
-
-                // Success state
-                btn.textContent = '✓ Je bent aangemeld!';
-                btn.style.background = '#059669';
-                btn.style.opacity = '1';
-
-                // Redirect to thank you page
-                setTimeout(() => { window.location.href = '/thankyou.html'; }, 1500);
-
             } catch (error) {
-                // Even with no-cors, the request is sent. Show success.
-                btn.textContent = '✓ Je bent aangemeld!';
-                btn.style.background = '#059669';
-                btn.style.opacity = '1';
-                setTimeout(() => { window.location.href = '/thankyou.html'; }, 1500);
+                console.log('[WEBHOOK] Error (request still sent):', error);
             }
+
+            // Success state
+            btn.textContent = '✓ Je bent aangemeld!';
+            btn.style.background = '#059669';
+            btn.style.opacity = '1';
+
+            // Redirect to thank you page
+            setTimeout(() => { window.location.href = '/thankyou.html'; }, 1500);
         });
     </script>
 

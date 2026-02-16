@@ -1,0 +1,444 @@
+<!-- ===== DSA OPTIN FORM - ClickFunnels Custom HTML (Dark) ===== -->
+<style>
+  .dsa-optin * { margin: 0; padding: 0; box-sizing: border-box; }
+  .dsa-optin {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 40px 20px 50px;
+    max-width: 580px;
+    margin: 0 auto;
+  }
+  .dsa-optin .optin-box {
+    max-width: 520px;
+    margin: 0 auto;
+    background: #111827;
+    border: 1px solid rgba(0, 229, 200, 0.12);
+    border-radius: 20px;
+    padding: 44px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .dsa-optin .optin-box::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(135deg, #00e5c8 0%, #00b4d8 100%);
+  }
+  .dsa-optin .optin-box h2 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  .dsa-optin .optin-box .subtitle {
+    font-size: 15px;
+    color: #94a3b8;
+    margin-bottom: 30px;
+  }
+  .dsa-optin .form-group {
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  .dsa-optin .form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #94a3b8;
+    margin-bottom: 6px;
+  }
+  .dsa-optin .form-group input,
+  .dsa-optin .form-group select {
+    width: 100%;
+    padding: 14px 18px;
+    background: #0d1320;
+    border: 1px solid rgba(0, 229, 200, 0.12);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: inherit;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+    -webkit-appearance: none;
+  }
+  .dsa-optin .form-group input::placeholder { color: #64748b; }
+  .dsa-optin .form-group input:focus,
+  .dsa-optin .form-group select:focus {
+    border-color: #00e5c8;
+    box-shadow: 0 0 0 3px rgba(0, 229, 200, 0.15);
+    background: #0d1320;
+  }
+  .dsa-optin .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .dsa-optin .phone-group {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 10px;
+  }
+  .dsa-optin .phone-group select {
+    padding: 14px 10px;
+    background: #0d1320;
+    border: 1px solid rgba(0, 229, 200, 0.12);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .dsa-optin .phone-group select:focus {
+    border-color: #00e5c8;
+    box-shadow: 0 0 0 3px rgba(0, 229, 200, 0.15);
+  }
+  .dsa-optin .phone-group select option { background: #111827; color: #ffffff; }
+  .dsa-optin .submit-btn {
+    width: 100%;
+    padding: 16px 24px;
+    background: linear-gradient(135deg, #00e5c8 0%, #00b4d8 100%);
+    border: none;
+    border-radius: 10px;
+    color: #080c14;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: transform 0.2s, box-shadow 0.3s;
+    margin-top: 10px;
+  }
+  .dsa-optin .submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 229, 200, 0.3);
+  }
+  .dsa-optin .form-note {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+  .dsa-optin .form-note svg {
+    width: 14px; height: 14px;
+    fill: #64748b;
+    flex-shrink: 0;
+  }
+  .dsa-optin .vip-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    background: rgba(0, 229, 200, 0.06);
+    border: 1px solid rgba(0, 229, 200, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    transition: border-color 0.3s, background 0.3s;
+  }
+  .dsa-optin .vip-check:hover {
+    border-color: rgba(0, 229, 200, 0.3);
+    background: rgba(0, 229, 200, 0.1);
+  }
+  .dsa-optin .vip-check input[type="checkbox"] {
+    width: 20px; height: 20px;
+    accent-color: #00e5c8;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .dsa-optin .vip-check-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #cbd5e1;
+    line-height: 1.4;
+  }
+  .dsa-optin .vip-check-label span { color: #00e5c8; font-weight: 700; }
+  .dsa-optin .phone-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+  .dsa-optin .phone-wrapper.show {
+    max-height: 120px;
+    opacity: 1;
+  }
+  .dsa-optin .social-proof-strip {
+    max-width: 520px;
+    margin: 32px auto 0;
+    text-align: center;
+  }
+  .dsa-optin .avatar-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+  .dsa-optin .avatar-row img {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    border: 3px solid #111827;
+    object-fit: cover;
+    margin-left: -8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  .dsa-optin .avatar-row img:first-child { margin-left: 0; }
+  .dsa-optin .social-proof-text {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  .dsa-optin .social-proof-text strong { color: #00e5c8; font-weight: 700; }
+  .dsa-optin .tp-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .dsa-optin .tp-row-label { font-size: 14px; font-weight: 600; color: #94a3b8; }
+  .dsa-optin .tp-row-stars { display: flex; gap: 3px; }
+  .dsa-optin .tp-row-stars .tp-mini-star {
+    width: 22px; height: 22px;
+    background: #00b67a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+  }
+  .dsa-optin .tp-row-stars .tp-mini-star svg { width: 13px; height: 13px; fill: #fff; }
+  .dsa-optin .tp-row-count { font-size: 14px; color: #94a3b8; }
+  .dsa-optin .tp-row-count strong { color: #ffffff; font-weight: 700; }
+  @media (max-width: 480px) {
+    .dsa-optin { padding: 24px 12px 32px; }
+    .dsa-optin .optin-box { padding: 30px 20px; }
+    .dsa-optin .form-row { grid-template-columns: 1fr; }
+  }
+</style>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<div class="dsa-optin" id="dsa-optin">
+  <div class="optin-box">
+    <h2>Claim Jouw Gratis Plek</h2>
+    <p class="subtitle">Vul je gegevens in en ontvang direct je persoonlijke toegangslink</p>
+
+    <form id="dsaRegistrationForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="dsaFirstName">Voornaam</label>
+          <input type="text" id="dsaFirstName" name="firstName" placeholder="Je voornaam" required>
+        </div>
+        <div class="form-group">
+          <label for="dsaLastName">Achternaam</label>
+          <input type="text" id="dsaLastName" name="lastName" placeholder="Je achternaam" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="dsaEmail">E-mailadres</label>
+        <input type="email" id="dsaEmail" name="email" placeholder="jouw@email.com" required>
+      </div>
+      <label class="vip-check">
+        <input type="checkbox" id="dsaVipCheck">
+        <span class="vip-check-label">Stuur mij een gratis <span>VIP SMS-herinnering</span> voor de start</span>
+      </label>
+
+      <div class="phone-wrapper" id="dsaPhoneWrapper">
+        <div class="form-group" style="margin-top: 10px;">
+          <label>Telefoonnummer</label>
+          <div class="phone-group">
+            <select id="dsaPhoneCountry" name="phoneCountry">
+              <option value="+31">\ud83c\uddf3\ud83c\uddf1 +31</option>
+              <option value="+32">\ud83c\udde7\ud83c\uddea +32</option>
+              <option value="+49">\ud83c\udde9\ud83c\uddea +49</option>
+              <option value="+33">\ud83c\uddeb\ud83c\uddf7 +33</option>
+              <option value="+44">\ud83c\uddec\ud83c\udde7 +44</option>
+              <option value="+1">\ud83c\uddfa\ud83c\uddf8 +1</option>
+              <option value="+34">\ud83c\uddea\ud83c\uddf8 +34</option>
+              <option value="+39">\ud83c\uddee\ud83c\uddf9 +39</option>
+              <option value="+41">\ud83c\udde8\ud83c\udded +41</option>
+              <option value="+43">\ud83c\udde6\ud83c\uddf9 +43</option>
+              <option value="+352">\ud83c\uddf1\ud83c\uddfa +352</option>
+              <option value="+27">\ud83c\uddff\ud83c\udde6 +27</option>
+              <option value="+599">\ud83c\udde8\ud83c\uddfc +599</option>
+              <option value="+297">\ud83c\udde6\ud83c\uddfc +297</option>
+              <option value="+212">\ud83c\uddf2\ud83c\udde6 +212</option>
+              <option value="+90">\ud83c\uddf9\ud83c\uddf7 +90</option>
+            </select>
+            <input type="tel" id="dsaPhone" name="phone" placeholder="6 12345678">
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn">
+        Claim Je Gratis Plek >>
+      </button>
+    </form>
+
+    <p class="form-note">
+      <svg viewBox="0 0 24 24"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-7v2h2v-2h-2zm0-8v6h2V7h-2z"/></svg>
+      Beperkte plekken beschikbaar. Geen kosten, geen verplichtingen.
+    </p>
+  </div>
+
+  <!-- Social Proof Strip -->
+  <div class="social-proof-strip">
+    <div class="avatar-row">
+      <img src="https://live.dropshipacademy.nl/avatars/lisa-booy.jpg" alt="">
+      <img src="https://live.dropshipacademy.nl/avatars/rick-van-hekken.jpg" alt="">
+      <img src="https://live.dropshipacademy.nl/avatars/denise-jairam.png" alt="">
+      <img src="https://live.dropshipacademy.nl/avatars/maarten-gerlings.jpg" alt="">
+      <img src="https://live.dropshipacademy.nl/avatars/daphne-van-estrik.jpg" alt="">
+      <img src="https://live.dropshipacademy.nl/avatars/alexander-braam.jpg" alt="">
+      <img src="https://live.dropshipacademy.nl/avatars/samantha-koeman.jpg" alt="">
+      <img src="https://live.dropshipacademy.nl/avatars/thijs-kaan.jpg" alt="">
+    </div>
+    <p class="social-proof-text">Sluit je aan bij <strong>8.000+ ondernemers</strong> die onze trainingen hebben gevolgd</p>
+    <div class="tp-row">
+      <span class="tp-row-label">Trustpilot</span>
+      <div class="tp-row-stars">
+        <span class="tp-mini-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+        <span class="tp-mini-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+        <span class="tp-mini-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+        <span class="tp-mini-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+        <span class="tp-mini-star"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+      </div>
+      <span class="tp-row-count"><strong>1.000+</strong> Reviews</span>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  // Tracking parameters uit URL
+  var params = new URLSearchParams(window.location.search);
+  var tracking = {
+    utm_source: params.get('utm_source') || '',
+    utm_medium: params.get('utm_medium') || '',
+    utm_campaign: params.get('utm_campaign') || '',
+    utm_content: params.get('utm_content') || '',
+    utm_term: params.get('utm_term') || '',
+    campaign_id: params.get('campaign_id') || '',
+    adset_id: params.get('adset_id') || params.get('fbc_id') || '',
+    ad_id: params.get('ad_id') || params.get('h_ad_id') || '',
+    campaign_name: params.get('campaign_name') || '',
+    adset_name: params.get('adset_name') || '',
+    ad_name: params.get('ad_name') || '',
+    placement: params.get('placement') || '',
+    fbclid: params.get('fbclid') || '',
+    fbc_id: params.get('fbc_id') || '',
+    h_ad_id: params.get('h_ad_id') || '',
+    landing_page: window.location.href
+  };
+
+  // VIP checkbox toggle phone field
+  document.getElementById('dsaVipCheck').addEventListener('change', function() {
+    document.getElementById('dsaPhoneWrapper').classList.toggle('show', this.checked);
+  });
+
+  // Form submission -> Zapier Webhook
+  document.getElementById('dsaRegistrationForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    var btn = this.querySelector('.submit-btn');
+    var originalText = btn.textContent;
+
+    var firstName = document.getElementById('dsaFirstName').value.trim();
+    var lastName = document.getElementById('dsaLastName').value.trim();
+    var email = document.getElementById('dsaEmail').value.trim();
+    var phoneCountry = document.getElementById('dsaPhoneCountry').value;
+    var phoneNumber = document.getElementById('dsaPhone').value.trim();
+    var fullPhone = phoneNumber ? phoneCountry + phoneNumber : '';
+
+    if (!firstName || !lastName || !email) {
+      btn.textContent = 'Vul alle verplichte velden in';
+      btn.style.background = '#ef4444';
+      btn.style.color = '#ffffff';
+      setTimeout(function() {
+        btn.textContent = originalText;
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 2500);
+      return;
+    }
+
+    btn.textContent = 'Bezig met aanmelden...';
+    btn.disabled = true;
+    btn.style.opacity = '0.7';
+
+    // Advanced Matching + Contact event VOOR de fetch
+    if (typeof fbq === 'function') {
+      fbq('init', '1648819232196660', {
+        em: email.toLowerCase(),
+        fn: firstName.toLowerCase(),
+        ln: lastName.toLowerCase(),
+        ph: fullPhone.replace(/[^0-9]/g, '')
+      });
+      fbq('track', 'Contact', { content_name: 'training-new-beginning', content_category: 'ugly-salespage' });
+    }
+
+    try {
+      await fetch('https://hooks.zapier.com/hooks/catch/4678145/ue1ytts/', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          first_name: firstName,
+          last_name: lastName,
+          email: email,
+          phone: fullPhone,
+          phone_country_code: phoneCountry,
+          vip: document.getElementById('dsaVipCheck').checked,
+          registered_at: new Date().toISOString(),
+          source: 'ugly-salespage',
+          page_source: 'ugly-salespage',
+          training: 'new-beginning-dfy-mentorship',
+          utm_source: tracking.utm_source,
+          utm_medium: tracking.utm_medium,
+          utm_campaign: tracking.utm_campaign,
+          utm_content: tracking.utm_content,
+          utm_term: tracking.utm_term,
+          campaign_id: tracking.campaign_id,
+          adset_id: tracking.adset_id,
+          ad_id: tracking.ad_id,
+          campaign_name: tracking.campaign_name,
+          adset_name: tracking.adset_name,
+          ad_name: tracking.ad_name,
+          placement: tracking.placement,
+          fbclid: tracking.fbclid,
+          fbc_id: tracking.fbc_id,
+          h_ad_id: tracking.h_ad_id,
+          landing_page: tracking.landing_page
+        })
+      });
+
+
+
+      btn.textContent = '\u2713 Je bent aangemeld!';
+      btn.style.background = '#059669';
+      btn.style.opacity = '1';
+      var tyUrl = 'https://go.dropshipacademy.nl/thank-you-pageko4hxuhx';
+      if (tracking.fbclid) tyUrl += '?fbclid=' + encodeURIComponent(tracking.fbclid);
+      setTimeout(function() {
+        window.location.href = tyUrl;
+      }, 800);
+
+    } catch (error) {
+
+      btn.textContent = '\u2713 Je bent aangemeld!';
+      btn.style.background = '#059669';
+      btn.style.opacity = '1';
+      var tyUrl2 = 'https://go.dropshipacademy.nl/thank-you-pageko4hxuhx';
+      if (tracking.fbclid) tyUrl2 += '?fbclid=' + encodeURIComponent(tracking.fbclid);
+      setTimeout(function() {
+        window.location.href = tyUrl2;
+      }, 800);
+    }
+  });
+})();
+</script>

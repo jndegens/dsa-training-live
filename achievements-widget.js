@@ -121,15 +121,18 @@
             groups[key].push(a);
         });
 
-        // Sort within each group: screenshot+quote first, then screenshot, then quote, then avatar
+        // Sort within each group: avatar required, then screenshot+quote first
         // Then take only the top MAX_CARDS per category
         Object.keys(groups).forEach(function(key) {
-            groups[key].sort(function(a, b) {
-                var sa = (a.screenshot && SHOW_SCREENSHOTS ? 4 : 0) + (a.quote ? 2 : 0) + (a.avatar ? 1 : 0);
-                var sb = (b.screenshot && SHOW_SCREENSHOTS ? 4 : 0) + (b.quote ? 2 : 0) + (b.avatar ? 1 : 0);
+            // Filter to only students with avatars first
+            var withAvatar = groups[key].filter(function(a) { return a.avatar; });
+            var pool = withAvatar.length >= 2 ? withAvatar : groups[key];
+            pool.sort(function(a, b) {
+                var sa = (a.avatar ? 8 : 0) + (a.screenshot && SHOW_SCREENSHOTS ? 4 : 0) + (a.quote ? 2 : 0);
+                var sb = (b.avatar ? 8 : 0) + (b.screenshot && SHOW_SCREENSHOTS ? 4 : 0) + (b.quote ? 2 : 0);
                 return sb - sa;
             });
-            groups[key] = groups[key].slice(0, MAX_CARDS);
+            groups[key] = pool.slice(0, MAX_CARDS);
         });
 
         var html = '<section class="aw-section"><div class="aw-container">';
