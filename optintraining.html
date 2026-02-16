@@ -2086,31 +2086,53 @@
         (function() {
             var phoneInput = document.getElementById('phone');
             var phoneSelect = document.getElementById('phoneCountry');
+            // Sorted longest first so +352 matches before +3
             var codes = ['+599','+352','+297','+212','+49','+44','+43','+41','+39','+34','+33','+32','+31','+27','+90','+1'];
+            var bareDigits = ['599','352','297','212','49','44','43','41','39','34','33','32','31','27','90','1'];
 
-            phoneInput.addEventListener('input', function() {
-                var val = this.value.replace(/^\s+/, '');
-
+            function stripCode(val) {
+                // Case 1: +XX prefix (e.g., +31612345678)
                 if (val.charAt(0) === '+') {
                     for (var i = 0; i < codes.length; i++) {
-                        if (val.indexOf(codes[i]) === 0) {
+                        if (val.indexOf(codes[i]) === 0 && val.length > codes[i].length) {
                             phoneSelect.value = codes[i];
-                            this.value = val.substring(codes[i].length).replace(/^[\s\-]+/, '');
+                            phoneInput.value = val.substring(codes[i].length).replace(/^[\s\-]+/, '');
                             return;
                         }
                     }
                 }
 
-                if (val.indexOf('00') === 0 && val.length > 4) {
-                    for (var i = 0; i < codes.length; i++) {
-                        var digits = codes[i].substring(1);
-                        if (val.indexOf('00' + digits) === 0) {
+                // Case 2: 00XX prefix (e.g., 0031612345678)
+                if (val.indexOf('00') === 0 && val.length > 6) {
+                    for (var i = 0; i < bareDigits.length; i++) {
+                        if (val.indexOf('00' + bareDigits[i]) === 0) {
                             phoneSelect.value = codes[i];
-                            this.value = val.substring(2 + digits.length).replace(/^[\s\-]+/, '');
+                            phoneInput.value = val.substring(2 + bareDigits[i].length).replace(/^[\s\-]+/, '');
                             return;
                         }
                     }
                 }
+
+                // Case 3: Bare digits (e.g., 31612345678) - only if long enough to be country code + number
+                var digitsOnly = val.replace(/[^0-9]/g, '');
+                if (digitsOnly.length >= 10) {
+                    for (var i = 0; i < bareDigits.length; i++) {
+                        if (digitsOnly.indexOf(bareDigits[i]) === 0 && digitsOnly.length > bareDigits[i].length + 5) {
+                            phoneSelect.value = codes[i];
+                            phoneInput.value = digitsOnly.substring(bareDigits[i].length);
+                            return;
+                        }
+                    }
+                }
+            }
+
+            phoneInput.addEventListener('input', function() {
+                stripCode(this.value.replace(/^\s+/, ''));
+            });
+
+            phoneInput.addEventListener('paste', function() {
+                var self = this;
+                setTimeout(function() { stripCode(self.value.replace(/^\s+/, '')); }, 0);
             });
         })();
 
@@ -2191,6 +2213,10 @@
             btn.textContent = '✓ Je bent aangemeld!';
             btn.style.background = '#059669';
             btn.style.opacity = '1';
+
+            // Hyros opt-in tracking — koppelt email aan bezoeker
+            var hyrosTag = new Image();
+            hyrosTag.src = "https://t.dropshipacademy.nl/v1/lst/universal-script?ph=5d9429791e5da1385467a4a900e2e803a8731f47029e56f22aaffa8776435da1&tag=!lead&email=" + encodeURIComponent(email);
 
             // Redirect to thank you page (pass fbclid for cross-session attribution)
             var redirectUrl = '/thankyou.html';
