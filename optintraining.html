@@ -2086,12 +2086,17 @@
         (function() {
             var phoneInput = document.getElementById('phone');
             var phoneSelect = document.getElementById('phoneCountry');
-            // Sorted longest first so +352 matches before +3
             var codes = ['+599','+352','+297','+212','+49','+44','+43','+41','+39','+34','+33','+32','+31','+27','+90','+1'];
             var bareDigits = ['599','352','297','212','49','44','43','41','39','34','33','32','31','27','90','1'];
 
+            // Verwacht aantal digits per landcode (na country code, zonder leading 0)
+            var phoneLengths = {
+                '+31': [9], '+32': [8,9], '+49': [10,11], '+33': [9], '+44': [10],
+                '+1': [10], '+34': [9], '+39': [9,10], '+41': [9], '+43': [10,11,12,13],
+                '+352': [8,9], '+27': [9], '+599': [7,8], '+297': [7], '+212': [9], '+90': [10]
+            };
+
             function stripCode(val) {
-                // Case 1: +XX prefix (e.g., +31612345678)
                 if (val.charAt(0) === '+') {
                     for (var i = 0; i < codes.length; i++) {
                         if (val.indexOf(codes[i]) === 0 && val.length > codes[i].length) {
@@ -2101,8 +2106,6 @@
                         }
                     }
                 }
-
-                // Case 2: 00XX prefix (e.g., 0031612345678)
                 if (val.indexOf('00') === 0 && val.length > 6) {
                     for (var i = 0; i < bareDigits.length; i++) {
                         if (val.indexOf('00' + bareDigits[i]) === 0) {
@@ -2112,8 +2115,6 @@
                         }
                     }
                 }
-
-                // Case 3: Bare digits (e.g., 31612345678) - only if long enough to be country code + number
                 var digitsOnly = val.replace(/[^0-9]/g, '');
                 if (digitsOnly.length >= 10) {
                     for (var i = 0; i < bareDigits.length; i++) {
@@ -2129,11 +2130,24 @@
             phoneInput.addEventListener('input', function() {
                 stripCode(this.value.replace(/^\s+/, ''));
             });
-
             phoneInput.addEventListener('paste', function() {
                 var self = this;
                 setTimeout(function() { stripCode(self.value.replace(/^\s+/, '')); }, 0);
             });
+            phoneInput.addEventListener('blur', function() {
+                // Strip leading 0 (bijv. 0612345678 -> 612345678)
+                var val = this.value.replace(/[^0-9]/g, '');
+                if (val.charAt(0) === '0') this.value = val.substring(1);
+            });
+
+            // Expose validation for form submit
+            window._validatePhone = function() {
+                var digits = phoneInput.value.replace(/[^0-9]/g, '');
+                if (!document.getElementById('vipCheck').checked || !digits) return true;
+                var country = phoneSelect.value;
+                var allowed = phoneLengths[country] || [7,8,9,10,11,12];
+                return allowed.indexOf(digits.length) !== -1;
+            };
         })();
 
         // Smooth scroll for anchor links
@@ -2168,9 +2182,18 @@
             const phoneNumber = document.getElementById('phone').value.trim();
             const fullPhone = phoneNumber ? phoneCountry + phoneNumber : '';
 
-            // Basic validation
+            // Validation
             if (!firstName || !lastName || !email) {
                 btn.textContent = 'Vul alle verplichte velden in';
+                btn.style.background = '#ef4444';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                }, 2500);
+                return;
+            }
+            if (window._validatePhone && !window._validatePhone()) {
+                btn.textContent = 'Controleer je telefoonnummer';
                 btn.style.background = '#ef4444';
                 setTimeout(() => {
                     btn.textContent = originalText;

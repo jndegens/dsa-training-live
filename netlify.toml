@@ -8,3 +8,8 @@
   from = "/salespage"
   to = "/sales.html"
   status = 200
+
+[[redirects]]
+  from = "/form"
+  to = "/clickfunnels-optin.html"
+  status = 200
